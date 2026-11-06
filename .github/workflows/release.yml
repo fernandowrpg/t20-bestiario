@@ -51,6 +51,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TAG="${{ steps.v.outputs.tag }}"
+          # Disparo manual: recria a release e a tag no commit atual.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && gh release view "$TAG" >/dev/null 2>&1; then
+            gh release delete "$TAG" --cleanup-tag --yes
+          fi
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" dist/bestiario-de-arton-t20.zip dist/module.json --clobber
           else

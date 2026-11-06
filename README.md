@@ -31,5 +31,5 @@ Baixe o `bestiario-de-arton-t20.zip` da [última release](https://github.com/fer
   2. `python3 tools/build_foundry.py saida/threats.json <sistema-tormenta20>/packs/_source/magias src/packs/bestiario-de-arton`: gera os atores, ligando as magias ao compêndio do sistema 1.5.x.
 
 ## Release automática
-Crie e envie uma tag `v*` (por exemplo, `git tag v1.0.1 && git push origin v1.0.1`) ou rode o workflow **Release** manualmente pela aba Actions, informando a versão.
+Crie e envie uma tag `v*` (por exemplo, `git tag v1.0.1 && git push origin v1.0.1`) ou rode o workflow **Release** manualmente pela aba Actions, informando a versão (se a release já existir, ela é recriada no commit atual).
 O workflow compila o compêndio e publica a release com `bestiario-de-arton-t20.zip` e `module.json`.
