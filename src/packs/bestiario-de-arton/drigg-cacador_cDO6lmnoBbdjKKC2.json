@@ -1,0 +1,1024 @@
+{
+ "_id": "cDO6lmnoBbdjKKC2",
+ "name": "Drigg Caçador",
+ "type": "npc",
+ "img": "icons/svg/mystery-man.svg",
+ "items": [
+  {
+   "_id": "H39JdHOP1ph1RvWb",
+   "name": "Clava",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Clava +7 (1d6).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "1d6",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!cDO6lmnoBbdjKKC2.H39JdHOP1ph1RvWb"
+  },
+  {
+   "_id": "45PkpxyCy6XnsOTs",
+   "name": "Funda",
+   "type": "arma",
+   "img": "icons/svg/target.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Funda +7 (1d6 mais veneno).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "pont",
+        "des",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "1d6",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "simples",
+    "proposito": "disparo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!cDO6lmnoBbdjKKC2.45PkpxyCy6XnsOTs"
+  },
+  {
+   "_id": "28lPYBqGtPTBb6Da",
+   "name": "Ataque Furtivo",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>+2d6.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!cDO6lmnoBbdjKKC2.28lPYBqGtPTBb6Da"
+  },
+  {
+   "_id": "LR7b98BAwDAquV2h",
+   "name": "Veneno",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Veneno ósseo (perde 4d4 pontos de vida e fica sangrando, Fort CD 13 reduz a perda à metade e evita a condição).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!cDO6lmnoBbdjKKC2.LR7b98BAwDAquV2h"
+  }
+ ],
+ "effects": [],
+ "folder": "CXxjnaIcxPKgC1X1",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 61"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": -1,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 3,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 2,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 0,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 2,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": 0,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 13,
+   "pv": {
+    "value": 15,
+    "min": -7,
+    "max": 15,
+    "temp": 0
+   },
+   "pm": {
+    "value": 0,
+    "min": 0,
+    "max": 0,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 6,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 6,
+     "bonus": []
+    },
+    "fly": {
+     "base": 0,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 14,
+    "outros": 1,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "faro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 1,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "1/2",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Drigg Caçador — ND 1/2 · Humanoide (drigg) Pequeno · Solo</em></p><p>Iniciativa +5, Percepção +4, faro</p><p>Defesa 14, Fort +3, Ref +6, Von -1, evasão</p><p>Pontos de Vida 15</p><p>Deslocamento 6m (4q), natação 6m (4q), sem redução por terreno difícil natural</p><p>Corpo a Corpo Clava +7 (1d6).</p><p>À Distância Funda +7 (1d6 mais veneno).</p><p>Ataque Furtivo +2d6.</p><p>Veneno Veneno ósseo (perde 4d4 pontos de vida e fica sangrando, Fort CD 13 reduz a perda à metade e evita a condição).</p><p>For -1, Des 3, Con 2, Int 0, Sab 2, Car 0</p><p>Perícias Atletismo +1, Furtividade +9, Sobrevivência +6.</p><p>Equipamento Clava, funda, pedras x20. Tesouro Metade mais 1d4 doses de veneno ósseo.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 61</p>",
+    "public": ""
+   },
+   "raca": "drigg",
+   "tipo": "hum",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "Clava, funda, pedras x20.",
+   "resistencias": "evasão",
+   "movimento": "sem redução por terreno difícil natural",
+   "tesouro": "",
+   "role": "solo",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "peq",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 1,
+    "atributo": "for",
+    "outros": 0,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 3,
+    "atributo": "con",
+    "outros": 1,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 9,
+    "atributo": "des",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 5,
+    "atributo": "des",
+    "outros": 2,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 7,
+    "atributo": "for",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 4,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 7,
+    "atributo": "des",
+    "outros": 4,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 6,
+    "atributo": "des",
+    "outros": 3,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 6,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": -1,
+    "atributo": "sab",
+    "outros": -3,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Drigg Caçador",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 1,
+  "height": 1,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/mystery-man.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!cDO6lmnoBbdjKKC2"
+}

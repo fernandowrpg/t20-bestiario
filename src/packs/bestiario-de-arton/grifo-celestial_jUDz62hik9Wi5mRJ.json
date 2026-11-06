@@ -1,0 +1,1066 @@
+{
+ "_id": "jUDz62hik9Wi5mRJ",
+ "name": "Grifo Celestial",
+ "type": "npc",
+ "img": "icons/svg/aura.svg",
+ "items": [
+  {
+   "_id": "TcPEsUyYK2MF5ZsD",
+   "name": "Mordida",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Mordida +26 (2d12+14).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d12+14",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!jUDz62hik9Wi5mRJ.TcPEsUyYK2MF5ZsD"
+  },
+  {
+   "_id": "yAiHKlExexvvxr04",
+   "name": "Duas garras",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Duas garras +26 (2d6+14).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d6+14",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!jUDz62hik9Wi5mRJ.yAiHKlExexvvxr04"
+  },
+  {
+   "_id": "TpPCrh0jyRaFBB8L",
+   "name": "Bote Rasante",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Completa) O grifo celestial faz uma investida e ataca com sua mordida e suas duas garras. Os três ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo. Após os ataques, o grifo pode continuar seu movimento, até o limite de seu deslocamento.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "full",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!jUDz62hik9Wi5mRJ.TpPCrh0jyRaFBB8L"
+  },
+  {
+   "_id": "lIWjMlXQuw50s7d8",
+   "name": "Presença Majestosa",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Uma criatura que ataque o grifo deve fazer um teste de Vontade (CD 26). Se falhar, não conseguirá machucá-lo e perderá a ação. Caso passe, a criatura não é mais afetada por esta habilidade até o fim da cena.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!jUDz62hik9Wi5mRJ.lIWjMlXQuw50s7d8"
+  },
+  {
+   "_id": "1mSiZIYFcvcYTwwy",
+   "name": "Parceiro",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O grifo celestial é um parceiro montaria (Enorme) que fornece os benefícios a seguir. Iniciante : seu deslocamento muda para 12m (normal e de voo).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!jUDz62hik9Wi5mRJ.1mSiZIYFcvcYTwwy"
+  }
+ ],
+ "effects": [],
+ "folder": "PMGZATtNApmmSMbn",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 88"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 6,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 5,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 4,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": -1,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 3,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": 1,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 26,
+   "pv": {
+    "value": 320,
+    "min": -160,
+    "max": 320,
+    "temp": 0
+   },
+   "pm": {
+    "value": 0,
+    "min": 0,
+    "max": 0,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 12,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 0,
+     "bonus": []
+    },
+    "fly": {
+     "base": 36,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 32,
+    "outros": 17,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 8,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "8",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Grifo Celestial — ND 8 · Espírito Enorme · Solo</em></p><p>Iniciativa +13, Percepção +13, visão no escuro</p><p>Defesa 32, Fort +12, Ref +21, Von +12, imunidade a medo</p><p>Pontos de Vida 320</p><p>Deslocamento 12m (8q), voo 36m (24q)</p><p>Corpo a Corpo Mordida +26 (2d12+14) e duas garras +26 (2d6+14).</p><p>Bote Rasante (Completa) O grifo celestial faz uma investida e ataca com sua mordida e suas duas garras. Os três ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo. Após os ataques, o grifo pode continuar seu movimento, até o limite de seu deslocamento.</p><p>Presença Majestosa Uma criatura que ataque o grifo deve fazer um teste de Vontade (CD 26). Se falhar, não conseguirá machucá-lo e perderá a ação. Caso passe, a criatura não é mais afetada por esta habilidade até o fim da cena.</p><p>For 6, Des 5, Con 4, Int -1, Sab 3, Car 1</p><p>Tesouro Nenhum.</p><p>Parceiro O grifo celestial é um parceiro montaria (Enorme) que fornece os benefícios a seguir. Iniciante : seu deslocamento muda para 12m (normal e de voo).</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 88</p>",
+    "public": ""
+   },
+   "raca": "",
+   "tipo": "esp",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "",
+   "resistencias": "imunidade a medo",
+   "movimento": "",
+   "tesouro": "Nenhum",
+   "role": "solo",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "eno",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 0,
+    "atributo": "for",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 12,
+    "atributo": "con",
+    "outros": 4,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 13,
+    "atributo": "des",
+    "outros": 4,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 26,
+    "atributo": "for",
+    "outros": 16,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 13,
+    "atributo": "sab",
+    "outros": 6,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 21,
+    "atributo": "des",
+    "outros": 12,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 12,
+    "atributo": "sab",
+    "outros": 5,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Grifo Celestial",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 3,
+  "height": 3,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/aura.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!jUDz62hik9Wi5mRJ"
+}

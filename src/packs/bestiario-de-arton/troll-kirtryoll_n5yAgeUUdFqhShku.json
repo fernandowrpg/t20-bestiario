@@ -1,0 +1,1285 @@
+{
+ "_id": "n5yAgeUUdFqhShku",
+ "name": "Troll Kirtryoll",
+ "type": "npc",
+ "img": "icons/svg/terror.svg",
+ "items": [
+  {
+   "_id": "gan3n76a2z1LlkSq",
+   "name": "Mordida",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Mordida +43 (4d8+28).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d8+28",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.gan3n76a2z1LlkSq"
+  },
+  {
+   "_id": "qfGfLGDj5Rxf2EFI",
+   "name": "Duas garras",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Duas garras +43 (2d12+28, 19).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d12+28",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 19,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.qfGfLGDj5Rxf2EFI"
+  },
+  {
+   "_id": "LoDPkdyNvfyjXkM1",
+   "name": "Arco longo x2",
+   "type": "arma",
+   "img": "icons/svg/target.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Arco longo x2 +39 (4d8+38, x3, mais veneno).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "pont",
+        "des",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d8+38",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 3,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "simples",
+    "proposito": "disparo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.LoDPkdyNvfyjXkM1"
+  },
+  {
+   "_id": "tG3CqVxe4Nv2WbFp",
+   "name": "Absorver Energia",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Se o troll kirtryoll fosse sofrer dano de frio, em vez disso ele recebe uma quantidade de PV temporários igual ao dano que sofreria. Para cada 10 PV temporários recebidos desta forma, ele recebe +1 em testes de ataque e rolagens de dano até o fim da cena. Se o kirtryoll estiver sob efeito de seu Campo de Invisibilidade, esta habilidade também se aplica a dano de luz.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.tG3CqVxe4Nv2WbFp"
+  },
+  {
+   "_id": "Kh0qhX65Dy2OE1gS",
+   "name": "Campo de Invisibilidade",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Movimento) O kirtryoll fica invisível (recebe camuflagem total e +10 em Furtividade, já contabilizado, e criaturas que não possam percebê-lo ficam desprevenidas) até o fim da cena ou até sofrer um acerto crítico. Recarga (padrão).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "move",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.Kh0qhX65Dy2OE1gS"
+  },
+  {
+   "_id": "M56IFBGhlvQKYBKR",
+   "name": "Condicionamento de Predador",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O kirtryoll pode se esconder mesmo sem camuflagem ou cobertura disponíveis, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para -5.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.M56IFBGhlvQKYBKR"
+  },
+  {
+   "_id": "feWoU3poldTWCHxN",
+   "name": "Dilacerar",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10400000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Se o kirtryoll acerta os dois ataques de garra em uma mesma criatura na mesma rodada, causa mais 4d12+28 pontos de dano.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.feWoU3poldTWCHxN"
+  },
+  {
+   "_id": "WNgQOwwYAt1gnnvZ",
+   "name": "Marca da Presa",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10500000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Movimento) O kirtryoll analisa uma criatura em alcance curto. Até o fim da cena, ele recebe +2d10 em rolagens de dano contra essa criatura. Esse dano adicional é dobrado contra criaturas desprevenidas.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "move",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.WNgQOwwYAt1gnnvZ"
+  },
+  {
+   "_id": "eXF8Fw3oYeR8aFEj",
+   "name": "Veneno",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10600000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Peçonha potente (perde 2d12 pontos de vida durante 3 rodadas, Fort CD 40 reduz a duração para 1 rodada).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!n5yAgeUUdFqhShku.eXF8Fw3oYeR8aFEj"
+  }
+ ],
+ "effects": [],
+ "folder": "DeJWjWGxWvxIJHtH",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 159"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 7,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 3,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 6,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 1,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 2,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": -1,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 40,
+   "pv": {
+    "value": 730,
+    "min": -365,
+    "max": 730,
+    "temp": 0
+   },
+   "pm": {
+    "value": 0,
+    "min": 0,
+    "max": 0,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 12,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 9,
+     "bonus": []
+    },
+    "fly": {
+     "base": 0,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 43,
+    "outros": 30,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "faro",
+     "cegas",
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 15,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "15",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Troll Kirtryoll — ND 15 · Monstro Grande · Especial</em></p><p>Iniciativa +18, Percepção +17, faro, percepção às cegas, visão no escuro</p><p>Defesa 43, Fort +22, Ref +28, Von +15, cura acelerada 30/ ácido ou fogo, imunidade a frio, redução de dano 5</p><p>Pontos de Vida 730</p><p>Deslocamento 12m (8q), natação 9m (6q)</p><p>Corpo a Corpo Mordida +43 (4d8+28) e duas garras +43 (2d12+28, 19).</p><p>À Distância Arco longo x2 +39 (4d8+38, x3, mais veneno).</p><p>Absorver Energia Se o troll kirtryoll fosse sofrer dano de frio, em vez disso ele recebe uma quantidade de PV temporários igual ao dano que sofreria. Para cada 10 PV temporários recebidos desta forma, ele recebe +1 em testes de ataque e rolagens de dano até o fim da cena. Se o kirtryoll estiver sob efeito de seu Campo de Invisibilidade, esta habilidade também se aplica a dano de luz.</p><p>Campo de Invisibilidade (Movimento) O kirtryoll fica invisível (recebe camuflagem total e +10 em Furtividade, já contabilizado, e criaturas que não possam percebê-lo ficam desprevenidas) até o fim da cena ou até sofrer um acerto crítico. Recarga (padrão).</p><p>Condicionamento de Predador O kirtryoll pode se esconder mesmo sem camuflagem ou cobertura disponíveis, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para -5.</p><p>Dilacerar Se o kirtryoll acerta os dois ataques de garra em uma mesma criatura na mesma rodada, causa mais 4d12+28 pontos de dano.</p><p>Marca da Presa (Movimento) O kirtryoll analisa uma criatura em alcance curto. Até o fim da cena, ele recebe +2d10 em rolagens de dano contra essa criatura. Esse dano adicional é dobrado contra criaturas desprevenidas.</p><p>Veneno Peçonha potente (perde 2d12 pontos de vida durante 3 rodadas, Fort CD 40 reduz a duração para 1 rodada).</p><p>For 7, Des 3, Con 6, Int 1, Sab 2, Car -1</p><p>Perícias Acrobacia +16, Atletismo +20, Furtividade +28, Guerra +14, Intimidação +14, Sobrevivência +15.</p><p>Equipamento Arco longo, flechas x20, peçonha potente x4.</p><p>Tesouro Padrão.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 159</p>",
+    "public": ""
+   },
+   "raca": "",
+   "tipo": "mon",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "Arco longo, flechas x20, peçonha potente x4.",
+   "resistencias": "cura acelerada 30/ ácido ou fogo",
+   "movimento": "",
+   "tesouro": "Padrão",
+   "role": "special",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "gra",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 5,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 16,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": true,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 20,
+    "atributo": "for",
+    "outros": 0,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 22,
+    "atributo": "con",
+    "outros": 9,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 28,
+    "atributo": "des",
+    "outros": 14,
+    "treinado": true,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 14,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 18,
+    "atributo": "des",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 14,
+    "atributo": "car",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 43,
+    "atributo": "for",
+    "outros": 29,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 17,
+    "atributo": "sab",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 39,
+    "atributo": "des",
+    "outros": 29,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 28,
+    "atributo": "des",
+    "outros": 18,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 15,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 15,
+    "atributo": "sab",
+    "outros": 6,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Troll Kirtryoll",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 2,
+  "height": 2,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/terror.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!n5yAgeUUdFqhShku"
+}

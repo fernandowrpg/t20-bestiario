@@ -1,0 +1,1066 @@
+{
+ "_id": "7i39ZiQqFhlvzQgp",
+ "name": "Limpa-túneis",
+ "type": "npc",
+ "img": "icons/svg/terror.svg",
+ "items": [
+  {
+   "_id": "SocdwSv1HY06vkFn",
+   "name": "Perfuratriz",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Perfuratriz +27 (4d12+10 perfuração).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d12+10",
+        "perfuracao",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!7i39ZiQqFhlvzQgp.SocdwSv1HY06vkFn"
+  },
+  {
+   "_id": "WSicsZhmomXn6POT",
+   "name": "Serra giratória",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Serra giratória +27 (6d8+10 corte).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "6d8+10",
+        "corte",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!7i39ZiQqFhlvzQgp.WSicsZhmomXn6POT"
+  },
+  {
+   "_id": "REgKAVwQPfeYoRFU",
+   "name": "Arsenal de Limpeza",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>As armas do limpa-túneis ignoram até 10 pontos da redução de dano de criaturas e objetos. Uma criatura atingida pela perfuratriz do limpa-túneis fica sangrando e uma criatura atingida pela serra giratória sofre +1d8 pontos de dano para cada resultado 8 nos dados de dano da arma.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!7i39ZiQqFhlvzQgp.REgKAVwQPfeYoRFU"
+  },
+  {
+   "_id": "WzhbQybBCZiKKsxK",
+   "name": "Atropelamento",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Completa) O limpa-túneis percorre até o dobro de seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 4d12+10 pontos de dano de impacto, ficam caídas (Ref CD 28 reduz à metade e evita a condição) e são empurradas até o fim do movimento do limpa-túneis. Recarga (movimento).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "full",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!7i39ZiQqFhlvzQgp.WzhbQybBCZiKKsxK"
+  },
+  {
+   "_id": "selDSyQUk2ToHCWK",
+   "name": "Placa Frontal",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>A placa frontal do limpa-túneis forma uma parede de 3m de lado que oferece camuflagem total para ele. A parede só pode ser transposta por criaturas incorpóreas ou Minúsculas.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!7i39ZiQqFhlvzQgp.selDSyQUk2ToHCWK"
+  }
+ ],
+ "effects": [],
+ "folder": "c8nvSjnocacs98Cr",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 108"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 7,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 0,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 6,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 0,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 0,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": -5,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 28,
+   "pv": {
+    "value": 380,
+    "min": -190,
+    "max": 380,
+    "temp": 0
+   },
+   "pm": {
+    "value": 0,
+    "min": 0,
+    "max": 0,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 6,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 0,
+     "bonus": []
+    },
+    "fly": {
+     "base": 0,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 34,
+    "outros": 24,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 9,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "9",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Limpa-túneis — ND 9 · Construto Grande · Solo</em></p><p>Iniciativa +8, Percepção +8, visão no escuro</p><p>Defesa 34, Fort +21, Ref +9, Von +15, imunidade a ácido, eletricidade e fogo, redução de dano 5, resistência a movimento +5</p><p>Pontos de Vida 380</p><p>Deslocamento 6m (4q), sem redução por terreno difícil</p><p>Corpo a Corpo Perfuratriz +27 (4d12+10 perfuração) e serra giratória +27 (6d8+10 corte).</p><p>Arsenal de Limpeza As armas do limpa-túneis ignoram até 10 pontos da redução de dano de criaturas e objetos. Uma criatura atingida pela perfuratriz do limpa-túneis fica sangrando e uma criatura atingida pela serra giratória sofre +1d8 pontos de dano para cada resultado 8 nos dados de dano da arma.</p><p>Atropelamento (Completa) O limpa-túneis percorre até o dobro de seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 4d12+10 pontos de dano de impacto, ficam caídas (Ref CD 28 reduz à metade e evita a condição) e são empurradas até o fim do movimento do limpa-túneis. Recarga (movimento).</p><p>Placa Frontal A placa frontal do limpa-túneis forma uma parede de 3m de lado que oferece camuflagem total para ele. A parede só pode ser transposta por criaturas incorpóreas ou Minúsculas.</p><p>For 7, Des 0, Con 6, Int —, Sab 0, Car -5</p><p>Tesouro Nenhum.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 108</p>",
+    "public": ""
+   },
+   "raca": "",
+   "tipo": "con",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "",
+   "resistencias": "resistência a movimento +5",
+   "movimento": "sem redução por terreno difícil",
+   "tesouro": "Nenhum",
+   "role": "solo",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "gra",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 5,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 0,
+    "atributo": "for",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 21,
+    "atributo": "con",
+    "outros": 11,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 8,
+    "atributo": "des",
+    "outros": 4,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 27,
+    "atributo": "for",
+    "outros": 16,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 8,
+    "atributo": "sab",
+    "outros": 4,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 9,
+    "atributo": "des",
+    "outros": 5,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 15,
+    "atributo": "sab",
+    "outros": 11,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Limpa-túneis",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 2,
+  "height": 2,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/terror.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!7i39ZiQqFhlvzQgp"
+}

@@ -1,0 +1,1280 @@
+{
+ "_id": "JLJ4RhjCb9PhXbcV",
+ "name": "Bhargaal",
+ "type": "npc",
+ "img": "icons/svg/aura.svg",
+ "items": [
+  {
+   "_id": "ADj4uYFRm88hyA70",
+   "name": "Espada de sombras x3",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Espada de sombras x3 +52 (4d12+10, 18, mais 4d8 frio e 4d8 trevas).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d12+10",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 18,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.ADj4uYFRm88hyA70"
+  },
+  {
+   "_id": "4DPA8AgZCD8wNndB",
+   "name": "Garra",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Garra +52 (4d6+10 mais 4d8 frio).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d6+10",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ],
+       [
+        "4d8",
+        "frio"
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.4DPA8AgZCD8wNndB"
+  },
+  {
+   "_id": "L83FGMZqgdT2tF3h",
+   "name": "Agarrar Aprimorado",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Livre) Garra (teste +57).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.L83FGMZqgdT2tF3h"
+  },
+  {
+   "_id": "DyGLPLvIa3cfpvtX",
+   "name": "Aura Gélida",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O bhargaal projeta uma aura de sombras gélidas, de 9m de raio, que obscurece a visão e enfraquece todas as chamas. Essa é uma área de escuridão total (Tormenta20, p. 318) em que habilidades de fogo custam +1 PM para serem usadas e causam -1 ponto de dano por dado.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.DyGLPLvIa3cfpvtX"
+  },
+  {
+   "_id": "g5MaukItJ4avAarv",
+   "name": "Congelar as Trevas",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O dano de frio que o bhargaal causa em criaturas que estejam em uma área de escuridão é dobrado.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.g5MaukItJ4avAarv"
+  },
+  {
+   "_id": "IKc53HXx1NYgEjyX",
+   "name": "Constrição Sombria",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10400000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Livre) No início de cada um de seus turnos, o bhargaal causa 2d6+10 pontos de dano de impacto e 4d8 pontos de dano de frio em cada criatura que esteja agarrando. Se a criatura sofrer dano de frio dessa forma, por cada resultado par nos dados desse dano, ela também perde 1 PM.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.IKc53HXx1NYgEjyX"
+  },
+  {
+   "_id": "RT8hlCOy9CwAllQv",
+   "name": "Cristalizar Alma",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10500000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Reação) Quando mata uma criatura que tenha uma alma, o bhargaal pode tentar cristalizar essa alma. Ele rola 1d20: se o resultado for igual ou maior que a quantidade de PM que a criatura tinha no momento da morte, sua alma é aprisionada em um cristal de gelo mágico. Uma criatura cuja alma tenha sido aprisionada dessa forma só poderá ser trazida de volta à vida se o cristal for quebrado.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "reaction",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.RT8hlCOy9CwAllQv"
+  },
+  {
+   "_id": "XtH3l2MeSrYml7Md",
+   "name": "Talho da Alma",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10600000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando o bhargaal acerta um ataque com sua espada de sombras, se a criatura sofrer dano de frio desse ataque, por cada resultado par nos dados do dano de frio, ela também perde 1 PM.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.XtH3l2MeSrYml7Md"
+  },
+  {
+   "_id": "gvumw3Dh7fOwxPOs",
+   "name": "Visão Abissal",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10700000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O bhargaal está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.gvumw3Dh7fOwxPOs"
+  },
+  {
+   "_id": "Bf6O6qEU1jeNX16P",
+   "name": "Vulnerabilidade Sagrada",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10800000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Uma criatura sob efeito da magia Bênção ignora 10 pontos da redução de dano do bhargaal.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!JLJ4RhjCb9PhXbcV.Bf6O6qEU1jeNX16P"
+  }
+ ],
+ "effects": [],
+ "folder": "crWviKhpWPvpIljs",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 35"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 7,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 3,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 5,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 5,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 4,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": 6,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 10,
+   "pv": {
+    "value": 1100,
+    "min": -550,
+    "max": 1100,
+    "temp": 0
+   },
+   "pm": {
+    "value": 0,
+    "min": 0,
+    "max": 0,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 12,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 0,
+     "bonus": []
+    },
+    "fly": {
+     "base": 24,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 58,
+    "outros": 45,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 19,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "19",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Bhargaal — ND 19 · Espírito (abissal) Enorme · Solo</em></p><p>Iniciativa +18, Percepção +19, visão no escuro</p><p>Defesa 58, Fort +32, Ref +19, Von +26, imunidade a ácido, frio, medo, trevas e veneno, redução de dano 20, resistência a magia +5</p><p>Pontos de Vida 1.100</p><p>Deslocamento 12m (8q), voo 24m (16q)</p><p>Corpo a Corpo Espada de sombras x3 +52 (4d12+10, 18, mais 4d8 frio e 4d8 trevas) e garra +52 (4d6+10 mais 4d8 frio).</p><p>Agarrar Aprimorado (Livre) Garra (teste +57).</p><p>Aura Gélida O bhargaal projeta uma aura de sombras gélidas, de 9m de raio, que obscurece a visão e enfraquece todas as chamas. Essa é uma área de escuridão total (Tormenta20, p. 318) em que habilidades de fogo custam +1 PM para serem usadas e causam -1 ponto de dano por dado.</p><p>Congelar as Trevas O dano de frio que o bhargaal causa em criaturas que estejam em uma área de escuridão é dobrado.</p><p>Constrição Sombria (Livre) No início de cada um de seus turnos, o bhargaal causa 2d6+10 pontos de dano de impacto e 4d8 pontos de dano de frio em cada criatura que esteja agarrando. Se a criatura sofrer dano de frio dessa forma, por cada resultado par nos dados desse dano, ela também perde 1 PM.</p><p>Cristalizar Alma (Reação) Quando mata uma criatura que tenha uma alma, o bhargaal pode tentar cristalizar essa alma. Ele rola 1d20: se o resultado for igual ou maior que a quantidade de PM que a criatura tinha no momento da morte, sua alma é aprisionada em um cristal de gelo mágico. Uma criatura cuja alma tenha sido aprisionada dessa forma só poderá ser trazida de volta à vida se o cristal for quebrado.</p><p>Talho da Alma Quando o bhargaal acerta um ataque com sua espada de sombras, se a criatura sofrer dano de frio desse ataque, por cada resultado par nos dados do dano de frio, ela também perde 1 PM.</p><p>Visão Abissal O bhargaal está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis.</p><p>Vulnerabilidade Sagrada Uma criatura sob efeito da magia Bênção ignora 10 pontos da redução de dano do bhargaal.</p><p>For 7, Des 3, Con 5, Int 5, Sab 4, Car 6</p><p>Perícias Atletismo +24, Enganação +23, Guerra +22, Intimidação +23, Intuição +21, Misticismo +22.</p><p>Tesouro Dobro mais 1d4 almas cristalizadas.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 35</p>",
+    "public": ""
+   },
+   "raca": "abissal",
+   "tipo": "esp",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "",
+   "resistencias": "imunidade a ácido, frio, medo, trevas e veneno, resistência a magia +5",
+   "movimento": "",
+   "tesouro": "Dobro mais 1d4 almas cristalizadas",
+   "role": "solo",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "eno",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 20,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 24,
+    "atributo": "for",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 23,
+    "atributo": "car",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 32,
+    "atributo": "con",
+    "outros": 18,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 22,
+    "atributo": "int",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 18,
+    "atributo": "des",
+    "outros": 6,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 23,
+    "atributo": "car",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 21,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 52,
+    "atributo": "for",
+    "outros": 36,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 22,
+    "atributo": "int",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 19,
+    "atributo": "sab",
+    "outros": 6,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 19,
+    "atributo": "des",
+    "outros": 7,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 26,
+    "atributo": "sab",
+    "outros": 13,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Bhargaal",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 3,
+  "height": 3,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/aura.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!JLJ4RhjCb9PhXbcV"
+}

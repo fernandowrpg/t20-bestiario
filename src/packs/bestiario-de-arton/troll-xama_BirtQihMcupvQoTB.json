@@ -1,0 +1,2399 @@
+{
+ "_id": "BirtQihMcupvQoTB",
+ "name": "Troll Xamã",
+ "type": "npc",
+ "img": "icons/svg/terror.svg",
+ "items": [
+  {
+   "_id": "10bDW3FpPWIBll3i",
+   "name": "Bordão x2",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Bordão x2 +35 (2d8+30 mais 4d6 ácido).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d8+30",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ],
+       [
+        "4d6",
+        "acido"
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.10bDW3FpPWIBll3i"
+  },
+  {
+   "_id": "tcdAg22Asb0eClAi",
+   "name": "Mordida",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Mordida +35 (1d8+30 mais 6d6 ácido).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "1d8+30",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ],
+       [
+        "6d6",
+        "acido"
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.tcdAg22Asb0eClAi"
+  },
+  {
+   "_id": "KlAgpuizCkiwHbUY",
+   "name": "Elo com a Natureza",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Se estiver a pelo menos 30 metros de seu covil, o troll xamã recupera 5 PM no início de cada um dos seus turnos.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.KlAgpuizCkiwHbUY"
+  },
+  {
+   "_id": "wNGgDpbWrJgz54a3",
+   "name": "Lacaios Arbustos",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O troll xamã está sempre acompanhado por 2d4+2 lacaios arbustos animados. Cada arbusto tem deslocamento 9m (sem redução por terreno difícil natural) e pode gastar uma ação padrão para causar 2d6+4 pontos de dano de corte em uma criatura a até 3m. Os arbustos têm For 3, Des 1, Defesa 27 e 1 PV e falham automaticamente em qualquer teste oposto ou de resistência. Se perder um lacaio arbusto, o troll pode criar um novo com 1 dia de trabalho.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.wNGgDpbWrJgz54a3"
+  },
+  {
+   "_id": "qvHgAXSow2vMofgN",
+   "name": "Coluna de Chamas",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/coluna-de-chamas.webp",
+   "effects": [
+    {
+     "_id": "S599OQkLP8D6nGAv",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "1",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "dano:fogo",
+       "mode": 0,
+       "value": "1d6",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano de fogo em +1d6.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.qvHgAXSow2vMofgN.S599OQkLP8D6nGAv"
+    },
+    {
+     "_id": "7Itw5GBwiK9e4a61",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "1",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "dano:luz",
+       "mode": 0,
+       "value": "1d6",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano de luz em +1d6.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.qvHgAXSow2vMofgN.7Itw5GBwiK9e4a61"
+    }
+   ],
+   "sort": 60000000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Coluna de Chamas (Padrão, 13 PM) Um cilindro de fogo sagrado com 3m de raio e 30m de altura desce dos céus em alcance longo, causando 13d6 pontos de dano de fogo mais 6d6 pontos de dano de luz nas criaturas e objetos livres na área (Ref reduz à metade).</p></section><p>Um pilar de fogo sagrado desce dos céus, causando 6d6 pontos de dano de fogo mais 6d6 pontos de dano de luz nas criaturas e objetos livres na área.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 184",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 6,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "long",
+    "alvo": "",
+    "area": "cilindro com 3m de raio e 30m de altura",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": "Reflexos reduz à metade"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "6d6",
+        "fogo",
+        ""
+       ],
+       [
+        "6d6",
+        "luz",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "div",
+    "circulo": "3",
+    "preparada": false,
+    "escola": "evo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.2SmpEwV7DibaAd6t",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.qvHgAXSow2vMofgN",
+   "folder": null
+  },
+  {
+   "_id": "4D0KHZW217tJMcv9",
+   "name": "Curar Ferimentos",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/curar-ferimentos.webp",
+   "effects": [
+    {
+     "_id": "E5Ynb8D45IFPkqGc",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "1 morto-vivo",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para 1 morto-vivo. Em vez do normal, causa 1d8 pontos de dano de luz (Vontade reduz à metade).",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.4D0KHZW217tJMcv9.E5Ynb8D45IFPkqGc"
+    },
+    {
+     "_id": "T7W1dpep8KKLNdPQ",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "1",
+       "aumenta": true
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "value": "1d8+1",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta a cura em +1d8+1.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.4D0KHZW217tJMcv9.T7W1dpep8KKLNdPQ"
+    },
+    {
+     "_id": "xncd3c6sRimZD4nY",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "também remove uma condição de fadiga do alvo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.4D0KHZW217tJMcv9.xncd3c6sRimZD4nY"
+    },
+    {
+     "_id": "8NiPKz2Ks17aIGcT",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "value": "curto",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para curto.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.4D0KHZW217tJMcv9.8NiPKz2Ks17aIGcT"
+    },
+    {
+     "_id": "lcjBzJa7QT1xtM5I",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "value": "curto",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "alvo",
+       "value": "criaturas escolhidas",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para curto e o alvo para criaturas escolhidas.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.4D0KHZW217tJMcv9.lcjBzJa7QT1xtM5I"
+    }
+   ],
+   "sort": 60100000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Curar Ferimentos (Padrão, 13 PM) Uma criatura adjacente cura 14d8+14 PV.</p></section><p>Voc&ecirc; canaliza energia positiva que recupera 2d8+2 pontos de vida na criatura tocada.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 189",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "touch",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [
+     {
+      "name": "Cura",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "2d8+2",
+        "curapv",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "div",
+    "circulo": "1",
+    "preparada": false,
+    "escola": "evo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.soVAGPRWQmKxOrPm",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.4D0KHZW217tJMcv9",
+   "folder": null
+  },
+  {
+   "_id": "zLszLsReorarK9ra",
+   "name": "Desintegrar",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/desintegrar.webp",
+   "effects": [
+    {
+     "_id": "qeqZ9ZhouJ48lEj9",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "4",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "2d12",
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano total em +2d12 e o dano mínimo em +1d12.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.zLszLsReorarK9ra.qeqZ9ZhouJ48lEj9"
+    }
+   ],
+   "sort": 60200000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Desintegrar (Padrão, 10 PM) Uma criatura ou objeto em alcance médio sofre 10d12 pontos de dano de essência (Fort reduz para 2d12). Se reduzido a 0 PV, o alvo vira pó.</p></section><p>Voc&ecirc; dispara um raio fino e esverdeado que causa 10d12 pontos de dano de ess&ecirc;ncia. Se o alvo passar no teste de resist&ecirc;ncia, em vez disso sofre 2d12 pontos de dano.</p>\n<p>Independentemente do resultado do teste de Fortitude, se os PV do alvo forem reduzidos a 0 ou menos, ele ser&aacute; completamente desintegrado, restando apenas p&oacute;.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 190",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 10,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "1 criatura ou objeto",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Fortitude parcial"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "10d12",
+        "essencia",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano parcial",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d12",
+        "essencia",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "arc",
+    "circulo": "4",
+    "preparada": false,
+    "escola": "tra",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.oFPOvZqHlPTyj4XD",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.zLszLsReorarK9ra",
+   "folder": null
+  },
+  {
+   "_id": "FKWyfBktnkYjOnIh",
+   "name": "Imobilizar",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/imobilizar.webp",
+   "effects": [
+    {
+     "_id": "fSTTlBXholQ6WJhC",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "1",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "1 espírito",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para 1 espírito.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.FKWyfBktnkYjOnIh.fSTTlBXholQ6WJhC"
+    },
+    {
+     "_id": "czmZboVVWzbVD2om",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o número de alvos em +1.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.FKWyfBktnkYjOnIh.czmZboVVWzbVD2om"
+    },
+    {
+     "_id": "50yF4EBxvj43Q4M7",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "1 criatura",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para 1 criatura. Requer 4º círculo",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.FKWyfBktnkYjOnIh.50yF4EBxvj43Q4M7"
+    },
+    {
+     "_id": "sjZWBk2nqII7nUdK",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Imobilizar",
+     "img": "systems/tormenta20/icons/magias/imobilizar.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.FKWyfBktnkYjOnIh.sjZWBk2nqII7nUdK"
+    }
+   ],
+   "sort": 60300000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Imobilizar (Padrão, 9 PM) Uma criatura em alcance curto fica paralisada (Von reduz para lenta). A cada rodada, a vítima pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, ela se liberta do efeito.</p></section><p>O alvo fica <a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.3dcJKe2SGu8mnafU\" data-id=\"3dcJKe2SGu8mnafU\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">Paralisado</a>; se passar na resist&ecirc;ncia, em vez disso fica @UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.e8JmqkgvL3H26vbi]{Lento}. A cada rodada, pode gastar uma a&ccedil;&atilde;o completa para fazer um novo teste de Vontade. Se passar, se liberta do efeito.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 195",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 6,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 humanóide ou animal",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": "Vontade parcial"
+    },
+    "rolls": [],
+    "tipo": "uni",
+    "circulo": "3",
+    "preparada": false,
+    "escola": "enc",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.vwpjRRdyR0iHI1TH",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.FKWyfBktnkYjOnIh",
+   "folder": null
+  },
+  {
+   "_id": "ITfS6BWIWGtxDIH9",
+   "name": "Potência Divina",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/potencia-divina.webp",
+   "effects": [
+    {
+     "_id": "LZeLNUKYa4Wrj3uR",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "items": "",
+       "equipment": false
+      }
+     },
+     "changes": [
+      {
+       "key": "system.atributos.for.bonus",
+       "mode": 2,
+       "value": "1",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o bônus de Força em +1.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.ITfS6BWIWGtxDIH9.LZeLNUKYa4Wrj3uR"
+    },
+    {
+     "_id": "DrnQ3G5GdlguRFMR",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "items": ""
+      }
+     },
+     "changes": [
+      {
+       "key": "system.tracos.resistencias.dano.value",
+       "mode": 2,
+       "value": "5",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta a resistência a dano em +5.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.ITfS6BWIWGtxDIH9.DrnQ3G5GdlguRFMR"
+    },
+    {
+     "_id": "gT58wfOEzw5hn1E3",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "Toque",
+       "priority": 0
+      },
+      {
+       "key": "alvo",
+       "mode": 5,
+       "value": "1 criatura",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para toque e o alvo para 1 criatura. A magia falha se você e o alvo não forem devotos da mesma divindade.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.ITfS6BWIWGtxDIH9.gT58wfOEzw5hn1E3"
+    },
+    {
+     "_id": "CYW1kpakzd0nMIx8",
+     "changes": [
+      {
+       "key": "system.atributos.for.bonus",
+       "mode": 2,
+       "value": "4",
+       "priority": null
+      },
+      {
+       "key": "system.tracos.resistencias.dano.value",
+       "mode": 2,
+       "value": "10",
+       "priority": null
+      }
+     ],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Potência Divina",
+     "img": "systems/tormenta20/icons/magias/potencia-divina.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!BirtQihMcupvQoTB.ITfS6BWIWGtxDIH9.CYW1kpakzd0nMIx8"
+    }
+   ],
+   "sort": 60400000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Potência Divina (Padrão, 13 PM, sustentada) O tamanho do troll xamã aumenta uma categoria e ele recebe Força +5 e RD 15. Isso aumenta seus ataques para: bordão x2 +40 (2d10+35 mais 4d6 ácido) e mordida +40 (1d10+35 mais 6d6 ácido). Ele não pode lançar magias enquanto estiver sob efeito de Potência Divina.</p></section><p>Voc&ecirc; canaliza o poder de sua divindade. Voc&ecirc; aumenta uma categoria de tamanho (seu equipamento muda de acordo) e recebe For&ccedil;a +4 e RD 10. Voc&ecirc; n&atilde;o pode lan&ccedil;ar magias enquanto estiver sob efeito de Pot&ecirc;ncia Divina.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 201",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 6,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "sust",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "self",
+    "alvo": "você",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "div",
+    "circulo": "3",
+    "preparada": false,
+    "escola": "tra",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.MbArAZo487Yb3hdl",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.ITfS6BWIWGtxDIH9",
+   "folder": null
+  },
+  {
+   "_id": "zsfRKDdohsxOMzRq",
+   "name": "Magias",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10000000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como um conjurador divino de 13º nível (CD 37).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!BirtQihMcupvQoTB.zsfRKDdohsxOMzRq"
+  }
+ ],
+ "effects": [],
+ "folder": "lO8CE2KEJW7cxA2E",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 160"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 6,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 2,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 6,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 1,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 4,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": 1,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 37,
+   "pv": {
+    "value": 455,
+    "min": -227,
+    "max": 455,
+    "temp": 0
+   },
+   "pm": {
+    "value": 69,
+    "min": 0,
+    "max": 69,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 9,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 0,
+     "bonus": []
+    },
+    "fly": {
+     "base": 0,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 41,
+    "outros": 29,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "faro",
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 13,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "13",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Troll Xamã — ND 13 · Monstro Grande · Especial</em></p><p>Iniciativa +12, Percepção +14, faro, visão no escuro</p><p>Defesa 41, Fort +20, Ref +13, Von +26, cura acelerada 20/ ácido ou fogo</p><p>Pontos de Vida 455</p><p>Deslocamento 9m (6q)</p><p>Pontos de Mana 69</p><p>Corpo a Corpo Bordão x2 +35 (2d8+30 mais 4d6 ácido) e mordida +35 (1d8+30 mais 6d6 ácido).</p><p>Elo com a Natureza Se estiver a pelo menos 30 metros de seu covil, o troll xamã recupera 5 PM no início de cada um dos seus turnos.</p><p>Lacaios Arbustos O troll xamã está sempre acompanhado por 2d4+2 lacaios arbustos animados. Cada arbusto tem deslocamento 9m (sem redução por terreno difícil natural) e pode gastar uma ação padrão para causar 2d6+4 pontos de dano de corte em uma criatura a até 3m. Os arbustos têm For 3, Des 1, Defesa 27 e 1 PV e falham automaticamente em qualquer teste oposto ou de resistência. Se perder um lacaio arbusto, o troll pode criar um novo com 1 dia de trabalho.</p><p>Magias Como um conjurador divino de 13º nível (CD 37).</p><p>• Coluna de Chamas (Padrão, 13 PM) Um cilindro de fogo sagrado com 3m de raio e 30m de altura desce dos céus em alcance longo, causando 13d6 pontos de dano de fogo mais 6d6 pontos de dano de luz nas criaturas e objetos livres na área (Ref reduz à metade).</p><p>• Curar Ferimentos (Padrão, 13 PM) Uma criatura adjacente cura 14d8+14 PV.</p><p>• Desintegrar (Padrão, 10 PM) Uma criatura ou objeto em alcance médio sofre 10d12 pontos de dano de essência (Fort reduz para 2d12). Se reduzido a 0 PV, o alvo vira pó.</p><p>• Imobilizar (Padrão, 9 PM) Uma criatura em alcance curto fica paralisada (Von reduz para lenta). A cada rodada, a vítima pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, ela se liberta do efeito.</p><p>• Potência Divina (Padrão, 13 PM, sustentada) O tamanho do troll xamã aumenta uma categoria e ele recebe Força +5 e RD 15. Isso aumenta seus ataques para: bordão x2 +40 (2d10+35 mais 4d6 ácido) e mordida +40 (1d10+35 mais 6d6 ácido). Ele não pode lançar magias enquanto estiver sob efeito de Potência Divina.</p><p>For 6, Des 2, Con 6, Int 1, Sab 4, Car 1</p><p>Perícias Intimidação +11, Misticismo +11, Ofício (alquimista) +11, Ofício (cozinheiro) +11, Sobrevivência +16.</p><p>Equipamento Bordão, instrumentos de ofício (alquimista e cozinheiro). Tesouro Padrão mais 1d4+1 poções.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 160</p>",
+    "public": ""
+   },
+   "raca": "",
+   "tipo": "mon",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "Bordão, instrumentos de ofício (alquimista e cozinheiro).",
+   "resistencias": "cura acelerada 20/ ácido ou fogo",
+   "movimento": "",
+   "tesouro": "",
+   "role": "special",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "gra",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 0,
+    "atributo": "for",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 20,
+    "atributo": "con",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 12,
+    "atributo": "des",
+    "outros": 4,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 11,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 35,
+    "atributo": "for",
+    "outros": 23,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 11,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 14,
+    "atributo": "sab",
+    "outros": 4,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 13,
+    "atributo": "des",
+    "outros": 5,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 16,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 26,
+    "atributo": "sab",
+    "outros": 16,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 11,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "Ofício (alquimista)",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 11,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "Ofício (cozinheiro)",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Troll Xamã",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 2,
+  "height": 2,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/terror.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!BirtQihMcupvQoTB"
+}

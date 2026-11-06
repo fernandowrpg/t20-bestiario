@@ -1,0 +1,2460 @@
+{
+ "_id": "qxHnbQwXrl4lrD8k",
+ "name": "Hipogrifo de Nimb",
+ "type": "npc",
+ "img": "icons/svg/aura.svg",
+ "items": [
+  {
+   "_id": "DUxwdE8yH2Taf1Dc",
+   "name": "Mordida",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Mordida +39 (4d10+25).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d10+25",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.DUxwdE8yH2Taf1Dc"
+  },
+  {
+   "_id": "08bfAoA5gciQl2Hn",
+   "name": "Duas garras",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Duas garras +39 (2d8+25).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d8+25",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.08bfAoA5gciQl2Hn"
+  },
+  {
+   "_id": "8bQKZ5l90koUdUDO",
+   "name": "Cascos",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Cascos +39 (4d8+25).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d8+25",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.8bQKZ5l90koUdUDO"
+  },
+  {
+   "_id": "1jwAyQjKYWdL1z0n",
+   "name": "Alterar Forma",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Padrão) O Hipogrifo de Nimb assume a forma de um humano com vestes leves e coloridas, como a magia Metamorfose (mas apenas para essa forma e tamanho). Nessa forma ele perde seu deslocamento de voo, mas mantém suas outras habilidades. Ele pode voltar a sua forma normal com uma ação padrão.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.1jwAyQjKYWdL1z0n"
+  },
+  {
+   "_id": "ZDDpA97vDTVL7IJA",
+   "name": "Armas da Desordem",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>As armas naturais do Hipogrifo são armas mágicas que causam +2d6 pontos de dano contra criaturas que não estejam sob algum efeito de metamorfose.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.ZDDpA97vDTVL7IJA"
+  },
+  {
+   "_id": "fNhaYzrSRruCbNRq",
+   "name": "Coice",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Movimento) Se estiver flanqueado, o Hipogrifo faz um ataque com seus cascos.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "move",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.fNhaYzrSRruCbNRq"
+  },
+  {
+   "_id": "vJU9nEFGrGMhqeDU",
+   "name": "Imortal",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10400000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Caso o Hipogrifo seja morto ou destruído de qualquer forma, Nimb irá ressuscitá-lo em 1d4 dias. Apenas Nimb pode destruí-lo permanentemente.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.vJU9nEFGrGMhqeDU"
+  },
+  {
+   "_id": "2GYaND0Xt9SvF1Bp",
+   "name": "Maldição da Insanidade",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10600000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Caso uma criatura monte o Hipogrifo, sofrerá os efeitos da magia Sussurros Insanos (Von CD 40 evita; devotos de Khalmyr sofrem -5 nesse teste). O Hipogrifo pode anular esse efeito para criaturas que ele aceite como cavaleiros.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.2GYaND0Xt9SvF1Bp"
+  },
+  {
+   "_id": "E0J8fC8LN8853S7c",
+   "name": "Sorte dos loucos",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10700000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Livre, 1 PM) Quando faz um teste, o Hipogrifo pode rolá-lo novamente (ele pode fazer isso mais de uma vez por teste). Se ainda assim falhar, ele perde 1d6 PM para cada vez que utilizou este poder neste teste.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.E0J8fC8LN8853S7c"
+  },
+  {
+   "_id": "mEFbC98hTYaLhAxu",
+   "name": "Parceiro",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10900000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O Hipogrifo de Nimb é um parceiro montaria (Grande) que aceita ser montado apenas por quem ele quiser.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.mEFbC98hTYaLhAxu"
+  },
+  {
+   "_id": "qDVPQRowII6VOSqB",
+   "name": "Despedaçar",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/despedacar.webp",
+   "effects": [
+    {
+     "_id": "LbEDlxeHOfexMbYO",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "value": "1d8+2",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano em +1d8+2.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.qDVPQRowII6VOSqB.LbEDlxeHOfexMbYO"
+    },
+    {
+     "_id": "HDHQCUh8nM4pANQf",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "objeto mundano Médio",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para objeto mundano Médio. Requer 2º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.qDVPQRowII6VOSqB.HDHQCUh8nM4pANQf"
+    },
+    {
+     "_id": "30IcETZW62RYh9Qk",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "objeto mundano Grande",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para objeto mundano Grande. Requer 3º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.qDVPQRowII6VOSqB.30IcETZW62RYh9Qk"
+    },
+    {
+     "_id": "es0fJdOaTlj0FRCz",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "9",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "mode": 5,
+       "value": "objeto mun- dano Enorme",
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para objeto mundano Enorme. Requer 4º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.qDVPQRowII6VOSqB.es0fJdOaTlj0FRCz"
+    },
+    {
+     "_id": "4RIX1aTMtm2znXIX",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "14",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "objeto mundano Colossal",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para objeto mundano Colossal. Requer 5º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.qDVPQRowII6VOSqB.4RIX1aTMtm2znXIX"
+    },
+    {
+     "_id": "qRaVVXpL5EcAE9is",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "pessoal",
+       "priority": null
+      },
+      {
+       "key": "area",
+       "mode": 5,
+       "value": "explosão de 6m de raio",
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para pessoal e a área para esfera de 6m de raio. Todas as criaturas e objetos na área são afetados.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.qDVPQRowII6VOSqB.qRaVVXpL5EcAE9is"
+    },
+    {
+     "origin": null,
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false
+      }
+     },
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "_id": "dNXNEkRpUaRLlKBb",
+     "changes": [],
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Atordoado",
+     "img": "systems/tormenta20/icons/conditions/atordoado.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.qDVPQRowII6VOSqB.dNXNEkRpUaRLlKBb"
+    }
+   ],
+   "sort": 60000000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Despedaçar (Padrão, 15 PM) Um alvo em alcance curto sofre 8d8+16 pontos de dano de impacto se for uma criatura, ou o dobro disso sem aplicar RD se for um construto ou um objeto mundano Pequeno, e fica atordoado (Fort reduz à metade e evita a condição). Uma criatura só pode ficar atordoada por esta magia uma vez por cena.</p></section><p>Esta magia emite um som alto e agudo. O alvo sofre 1d8+2 pontos de dano de impacto (ou o dobro disso e ignora RD se for um construto ou objeto mundano) e fica @UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.bD6XAyHQrWYr0BTQ]{Atordoado} por uma rodada (apenas uma vez por cena). Um teste de Fortitude reduz o dano &agrave; metade e evita o atordoamento.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 190",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 criatura ou objeto mundano pequeno",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": "Fortitude parcial ou Reflexos anula"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "1d8+2",
+        "impacto",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "div",
+    "circulo": "1",
+    "preparada": false,
+    "escola": "evo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.I177NeKSwiAn8vz5",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.qDVPQRowII6VOSqB",
+   "folder": null
+  },
+  {
+   "_id": "sw9RlYeSSlQWr4uh",
+   "name": "Dificultar Detecção",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/dificultar-deteccao.webp",
+   "effects": [
+    {
+     "_id": "N1XUZlveBOurRS2y",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "4",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "área de cubo de 9m",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para área de cubo de 9m. Qualquer criatura ou objeto na área recebe o efeito da magia enquanto estiver dentro dela.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.sw9RlYeSSlQWr4uh.N1XUZlveBOurRS2y"
+    },
+    {
+     "_id": "8z8al4xg3v8uNQPO",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "4",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "duracao",
+       "value": "1 semana",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a duração para 1 semana.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.sw9RlYeSSlQWr4uh.8z8al4xg3v8uNQPO"
+    },
+    {
+     "_id": "nxyVXCTsRxDz0wof",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Dificultar Detecção",
+     "img": "systems/tormenta20/icons/magias/dificultar-deteccao.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.sw9RlYeSSlQWr4uh.nxyVXCTsRxDz0wof"
+    }
+   ],
+   "sort": 60100000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Dificultar Detecção (Padrão, 1 PM) Uma criatura (incluindo seu equipamento) ou objeto em alcance de toque é ocultado contra qualquer meio mágico de detecção, inclusive detectar magia, por 1 dia. Um conjurador que lance uma magia de adivinhação para detectar a presença ou localização do alvo deve fazer um teste de Vontade. Se falhar, a magia não funciona, mas os PM são gastos mesmo assim.</p></section><p>Esta magia oculta a presen&ccedil;a do alvo contra qualquer meio m&aacute;gico de detec&ccedil;&atilde;o, inclusive detectar magia. Um conjurador que lance uma magia de adivinha&ccedil;&atilde;o para detectar a presen&ccedil;a ou localiza&ccedil;&atilde;o do alvo deve fazer um teste de Vontade. Se falhar, a magia n&atilde;o funciona, mas os PM s&atilde;o gastos mesmo assim. Se for lan&ccedil;ada sobre uma criatura, <em>Dificultar Detec&ccedil;&atilde;o</em> protege tanto a criatura quanto seu equipamento.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 190",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 6,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 1,
+     "units": "day",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "touch",
+    "alvo": "1 criatura ou objeto",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "3",
+    "preparada": false,
+    "escola": "abj",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.9XKOzJxNtF5dPH6B",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.sw9RlYeSSlQWr4uh",
+   "folder": null
+  },
+  {
+   "_id": "mrLGbyssV9yyIAye",
+   "name": "Sussurros Insanos",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/sussurros-insanos.webp",
+   "effects": [
+    {
+     "_id": "a91Qq4uJWCt9BaHJ",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o número de alvos em +1.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.mrLGbyssV9yyIAye.a91Qq4uJWCt9BaHJ"
+    },
+    {
+     "_id": "n4P4UlD5bQRhtzIh",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "1 criatura",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para 1 criatura.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.mrLGbyssV9yyIAye.n4P4UlD5bQRhtzIh"
+    },
+    {
+     "_id": "Yiwe30aN5lDHb5mk",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "12",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "criaturas escolhidas",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para criaturas escolhidas. Requer 5º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.mrLGbyssV9yyIAye.Yiwe30aN5lDHb5mk"
+    },
+    {
+     "duration": {
+      "rounds": 999,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "flags": {
+      "core": {
+       "statusId": "confuso"
+      },
+      "tormenta20": {
+       "condition": true,
+       "durationScene": true,
+       "category": "mental"
+      }
+     },
+     "_id": "jux9RnXL3OYir0N4",
+     "changes": [],
+     "disabled": false,
+     "origin": null,
+     "tint": "#ffffff",
+     "transfer": true,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Confuso",
+     "img": "systems/tormenta20/icons/conditions/confuso.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.mrLGbyssV9yyIAye.jux9RnXL3OYir0N4"
+    }
+   ],
+   "sort": 60200000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Sussurros Insanos (Padrão, 12 PM) Até 4 criaturas em alcance curto ficam confusas (Von evita).</p></section><p>Voc&ecirc; murmura palavras desconexas que afetam a mente do alvo. O alvo fica @UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.ynLMPpmMnZwV6rxf]{Confuso}.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 207",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 humanoide",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Vontade anula"
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "enc",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.s9z7z8KtujpICCZw",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.mrLGbyssV9yyIAye",
+   "folder": null
+  },
+  {
+   "_id": "uIDTzlzPVKFfagNE",
+   "name": "Viagem Planar",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/viagem-planar.webp",
+   "effects": [
+    {
+     "_id": "ju7VLF8WTD1Z1tnN",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "até cinco criaturas voluntárias que você esteja tocando",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para até cinco criaturas voluntárias que você esteja tocando.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!qxHnbQwXrl4lrD8k.uIDTzlzPVKFfagNE.ju7VLF8WTD1Z1tnN"
+    }
+   ],
+   "sort": 60300000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Viagem Planar (Padrão, 12 PM) O Hipogrifo e até 5 criaturas voluntárias que ele esteja tocando viajam para outro Plano.</p></section><p>Você viaja instantaneamente para outro plano da Criação. Lá, você chega de 10 a 1.000km do destino pretendido (role 1d100 e multiplique por 10km).</p><p><i>Componente material:</i> um bastão de metal precioso em forma de forquilha (no valor de T$ 1.000). O tipo de metal determina para qual plano de existência você será enviado. Os metais que levam a dimensões específicas podem ser difíceis de encontrar, de acordo com o mestre.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 211",
+    "ativacao": {
+     "execucao": "full",
+     "custo": 10,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "touch",
+    "alvo": "pessoal",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "uni",
+    "circulo": "4",
+    "preparada": false,
+    "escola": "con",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.3rR4d2fWU6uIqVNv",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.uIDTzlzPVKFfagNE",
+   "folder": null
+  },
+  {
+   "_id": "XAZdQyteVXpWWHae",
+   "name": "Magias",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10000000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como um clérigo de Nimb de 15º nível (CD 40).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!qxHnbQwXrl4lrD8k.XAZdQyteVXpWWHae"
+  }
+ ],
+ "effects": [],
+ "folder": "DeJWjWGxWvxIJHtH",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 95"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 7,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 5,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 5,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 2,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 2,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": 5,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 40,
+   "pv": {
+    "value": 750,
+    "min": -375,
+    "max": 750,
+    "temp": 0
+   },
+   "pm": {
+    "value": 5,
+    "min": 0,
+    "max": 5,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 15,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 0,
+     "bonus": []
+    },
+    "fly": {
+     "base": 36,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 50,
+    "outros": 35,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 15,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "15",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Hipogrifo de Nimb — ND 15 · Espírito (celestial) Grande · Solo</em></p><p>Iniciativa +20, Percepção +17, visão no escuro</p><p>Defesa 50, Fort +15, Ref +28, Von +22, imunidade a efeitos de adivinhação, encantamento, metamorfose, mentais e movimento, redução de dano 10, resistência a magia +5</p><p>Pontos de Vida 750</p><p>Deslocamento 15m (10q), voo 36m (24q)</p><p>Pontos de Mana 5d20</p><p>Corpo a Corpo Mordida +39 (4d10+25) e duas garras +39 (2d8+25) ou cascos +39 (4d8+25).</p><p>Alterar Forma (Padrão) O Hipogrifo de Nimb assume a forma de um humano com vestes leves e coloridas, como a magia Metamorfose (mas apenas para essa forma e tamanho). Nessa forma ele perde seu deslocamento de voo, mas mantém suas outras habilidades. Ele pode voltar a sua forma normal com uma ação padrão.</p><p>Armas da Desordem As armas naturais do Hipogrifo são armas mágicas que causam +2d6 pontos de dano contra criaturas que não estejam sob algum efeito de metamorfose.</p><p>Coice (Movimento) Se estiver flanqueado, o Hipogrifo faz um ataque com seus cascos.</p><p>Imortal Caso o Hipogrifo seja morto ou destruído de qualquer forma, Nimb irá ressuscitá-lo em 1d4 dias. Apenas Nimb pode destruí-lo permanentemente.</p><p>Magia Acelerada (Livre, +4 PM) Uma vez por rodada, quando lança uma magia com execução de ação de movimento, padrão ou completa, o Hipogrifo muda a execução dela para livre.</p><p>Maldição da Insanidade Caso uma criatura monte o Hipogrifo, sofrerá os efeitos da magia Sussurros Insanos (Von CD 40 evita; devotos de Khalmyr sofrem -5 nesse teste). O Hipogrifo pode anular esse efeito para criaturas que ele aceite como cavaleiros.</p><p>Sorte dos loucos (Livre, 1 PM) Quando faz um teste, o Hipogrifo pode rolá-lo novamente (ele pode fazer isso mais de uma vez por teste). Se ainda assim falhar, ele perde 1d6 PM para cada vez que utilizou este poder neste teste.</p><p>Magias Como um clérigo de Nimb de 15º nível (CD 40).</p><p>• Despedaçar (Padrão, 15 PM) Um alvo em alcance curto sofre 8d8+16 pontos de dano de impacto se for uma criatura, ou o dobro disso sem aplicar RD se for um construto ou um objeto mundano Pequeno, e fica atordoado (Fort reduz à metade e evita a condição). Uma criatura só pode ficar atordoada por esta magia uma vez por cena.</p><p>• Dificultar Detecção (Padrão, 1 PM) Uma criatura (incluindo seu equipamento) ou objeto em alcance de toque é ocultado contra qualquer meio mágico de detecção, inclusive detectar magia, por 1 dia. Um conjurador que lance uma magia de adivinhação para detectar a presença ou localização do alvo deve fazer um teste de Vontade. Se falhar, a magia não funciona, mas os PM são gastos mesmo assim.</p><p>• Sussurros Insanos (Padrão, 12 PM) Até 4 criaturas em alcance curto ficam confusas (Von evita).</p><p>• Viagem Planar (Padrão, 12 PM) O Hipogrifo e até 5 criaturas voluntárias que ele esteja tocando viajam para outro Plano.</p><p>For 7, Des 5, Con 5, Int 2, Sab 2, Car 5</p><p>Perícias Acrobacia +20, Atletismo +22, Enganação +20, Religião +17.</p><p>Tesouro Nenhum.</p><p>Parceiro O Hipogrifo de Nimb é um parceiro montaria (Grande) que aceita ser montado apenas por quem ele quiser.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 95</p>",
+    "public": ""
+   },
+   "raca": "celestial",
+   "tipo": "esp",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "",
+   "resistencias": "imunidade a efeitos de adivinhação, encantamento, metamorfose, mentais e movimento, resistência a magia +5",
+   "movimento": "",
+   "tesouro": "Nenhum",
+   "role": "solo",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "gra",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 10,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 20,
+    "atributo": "des",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 22,
+    "atributo": "for",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 20,
+    "atributo": "car",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 15,
+    "atributo": "con",
+    "outros": 3,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 20,
+    "atributo": "des",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 39,
+    "atributo": "for",
+    "outros": 25,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 17,
+    "atributo": "sab",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 28,
+    "atributo": "des",
+    "outros": 16,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 17,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 22,
+    "atributo": "sab",
+    "outros": 13,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Hipogrifo de Nimb",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 2,
+  "height": 2,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/aura.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!qxHnbQwXrl4lrD8k"
+}

@@ -1,0 +1,3099 @@
+{
+ "_id": "dHpyyyLHUWOFINRV",
+ "name": "Pileus Mago (Estágio Três)",
+ "type": "npc",
+ "img": "icons/svg/skull.svg",
+ "items": [
+  {
+   "_id": "paMC32EzunODIQCm",
+   "name": "Toque sombrio",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Toque sombrio +55 (10d6+10 trevas).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "10d6+10",
+        "trevas",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.paMC32EzunODIQCm"
+  },
+  {
+   "_id": "JTx3BBabi1CVr86N",
+   "name": "Arcano de Batalha",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O pileus mago soma sua Inteligência nas rolagens de dano quando lança magias (já contabilizado).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.JTx3BBabi1CVr86N"
+  },
+  {
+   "_id": "HDQRq7xAko6hN8az",
+   "name": "Contramágica Superior",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Reação) Uma vez por rodada, quando vê uma magia ser conjurada, o pileus faz uma contramágica. Se usar Dissipar Magia para isso, ele rola dois dados e usa o melhor resultado.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "reaction",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.HDQRq7xAko6hN8az"
+  },
+  {
+   "_id": "76Ct9Nb5eIrFKIvR",
+   "name": "Drenar Existência",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Uma criatura atingida pelo toque drenante do pileus tem seus PV máximos reduzidos em 20 e seus PM máximos reduzidos em 3, ambos por 1 dia, cumulativamente (Fort CD 51 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos. Sempre que reduz os PV e PM máximos de uma criatura desta forma, o pileus recupera essa mesma quantidade de PV e PM.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.76Ct9Nb5eIrFKIvR"
+  },
+  {
+   "_id": "gL374ktGGytjzRDq",
+   "name": "Extinguir a Vida",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10400000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Uma criatura que sofra dano de trevas do pileus não pode recuperar pontos de vida por 1 rodada.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.gL374ktGGytjzRDq"
+  },
+  {
+   "_id": "1u0CzRd4D0zEHw4I",
+   "name": "Fluxo de Mana",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10500000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O pileus pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.1u0CzRd4D0zEHw4I"
+  },
+  {
+   "_id": "hu0eAMf03Bmkt4wK",
+   "name": "Pacto Além das Trevas",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10700000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Criaturas imunes a dano de trevas sofrem metade do dano de trevas do pileus e mortos-vivos não recuperam pontos de vida com esse dano.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.hu0eAMf03Bmkt4wK"
+  },
+  {
+   "_id": "dWLCnUUUgNhq5Fws",
+   "name": "Visão Arcana",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10800000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O pileus está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.dWLCnUUUgNhq5Fws"
+  },
+  {
+   "_id": "L2qg2nFVJLkZhok9",
+   "name": "Desespero Esmagador",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/desespero-esmagador.webp",
+   "effects": [
+    {
+     "_id": "6fhmY20GSejtqLgU",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "condicao",
+       "value": "debilitado",
+       "mode": 0,
+       "priority": null
+      },
+      {
+       "key": "condicao",
+       "value": "esmorecido",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "em vez do normal, as condições adquiridas são debilitado e esmorecido.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.L2qg2nFVJLkZhok9.6fhmY20GSejtqLgU"
+    },
+    {
+     "_id": "HsX3fBjwZwMTO2bb",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "em vez do normal, afeta qualquer tipo de criatura.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.L2qg2nFVJLkZhok9.HsX3fBjwZwMTO2bb"
+    },
+    {
+     "_id": "SFqxKl2kgQ69jfzA",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "items": ""
+      }
+     },
+     "changes": [
+      {
+       "key": "condicao",
+       "mode": 0,
+       "value": "pasmo",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "além do normal, criaturas que falhem na resistência ficam aos prantos (em termos de jogo, adquirem a condição pasmo) por 1 rodada (apenas uma vez por cena). Requer 3º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.L2qg2nFVJLkZhok9.SFqxKl2kgQ69jfzA"
+    },
+    {
+     "_id": "SKAFxmVCXlbjW5aR",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Desespero Esmagador",
+     "img": "systems/tormenta20/icons/magias/desespero-esmagador.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.L2qg2nFVJLkZhok9.SKAFxmVCXlbjW5aR"
+    }
+   ],
+   "sort": 60000000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Desespero Esmagador (Padrão, 8 PM) Criaturas num cone de 6m ficam debilitadas e esmorecidas pela cena (Von reduz para 1 rodada).</p></section><p>Humanoides na &aacute;rea s&atilde;o acometidos de grande tristeza, adquirindo as condi&ccedil;&otilde;es @UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.Q6GUW7cDfTW5AXRz]{Fraco} e @UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.XvqIlV5v4YBeFUBs]{Frustrado}. Se passarem na resist&ecirc;ncia, adquirem essas condi&ccedil;&otilde;es por uma rodada.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 190",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "self",
+    "alvo": "",
+    "area": "Cone de 6m",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Vontade parcial"
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "enc",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.u2Yo7BCg7xOrQJyF",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.L2qg2nFVJLkZhok9",
+   "folder": null
+  },
+  {
+   "_id": "2CdnNzhfl1AzJI7O",
+   "name": "Dissipar Magia",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/dissipar-magia.webp",
+   "effects": [
+    {
+     "_id": "kKZ6L0mhMN53y13e",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "12",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false,
+       "equipment": false
+      }
+     },
+     "changes": [
+      {
+       "key": "area",
+       "mode": 5,
+       "value": "esfera com 9m de raio",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "name": "muda a área para esfera com 9m de raio. Em vez do normal, cria um\nefeito de disjunção. Todas as magias na área são automaticamente dissipadas e todos os itens mágicos na área, exceto aqueles que você estiver carregando, viram itens mundanos por uma cena (com direito a um teste de Vontade para evitar esse efeito). Requer 5º círculo.",
+     "description": "",
+     "statuses": [],
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.2CdnNzhfl1AzJI7O.kKZ6L0mhMN53y13e"
+    }
+   ],
+   "sort": 60100000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Dissipar Magia (Padrão, 3 PM) O pileus escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.</p></section><p>Você dissipa outras magias que estejam ativas, como se sua duração tivesse acabado. Note que efeitos de magias instantâneas não podem ser dissipados (não se pode dissipar uma Bola de Fogo ou Relâmpago depois que já causaram dano...). Se lançar essa magia em uma criatura ou área, faça um teste de Misticismo; você dissipa as magias com CD igual ou menor que o resultado do teste. Se lançada contra um item mágico, o transforma em um item mundano por 1d6 rodadas (Vontade anula).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 191",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "1 criatura ou 1 objeto mágico",
+    "area": "ou esfera com 3m de raio",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "uni",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "abj",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.rfTGYwrXLjcIAIP5",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.2CdnNzhfl1AzJI7O",
+   "folder": null
+  },
+  {
+   "_id": "AAMmiNXUws2T2ZrS",
+   "name": "Ferver Sangue",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/ferver-sangue.webp",
+   "effects": [
+    {
+     "_id": "Bxba43zea5xHivv6",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "1d6",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano em +1d8.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.AAMmiNXUws2T2ZrS.Bxba43zea5xHivv6"
+    },
+    {
+     "_id": "tLIrRjfeyDLLV8Q3",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "9",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "criaturas escolhidas",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda alvo para criaturas escolhidas. Requer 5º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.AAMmiNXUws2T2ZrS.tLIrRjfeyDLLV8Q3"
+    },
+    {
+     "_id": "DEij8bV7eUeqE3fE",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Criaturas Escolhidas",
+     "img": "systems/tormenta20/icons/magias/ferver-sangue.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.AAMmiNXUws2T2ZrS.DEij8bV7eUeqE3fE"
+    }
+   ],
+   "sort": 60200000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Ferver Sangue (Padrão, 19 PM, sustentada) O sangue de criaturas escolhidas em alcance curto começa a ferver. Quando a magia é lançada, e no início de cada um de seus turnos, cada criatura sofre 6d8+10 pontos de dano de fogo e fica enjoada por 1 rodada (Fort reduz à metade e evita a condição). Se uma criatura passar em dois testes de Fortitude seguidos, dissipa a magia sobre si. Se um alvo for reduzido a 0 PV pelo dano desta magia, seu corpo explode, matando-o e causando 6d6 pontos de dano de fogo em todas as criaturas a até 3m (Ref reduz à metade). Esta magia não afeta criaturas sem sangue, como construtos ou mortos-vivos.</p></section><p>O sangue do alvo aquece rapidamente at&eacute; entrar em ebuli&ccedil;&atilde;o. Quando a magia &eacute; lan&ccedil;ada, e no in&iacute;cio de cada um de seus turnos, o alvo sofre 4d8 pontos de dano de fogo e fica @UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.BUMyxT4YI9mdC8Aj]{Enjoado} por uma rodada (Fortitude reduz o dano &agrave; metade e evita a condi&ccedil;&atilde;o). Se o alvo passar em dois testes de Fortitude seguidos, dissipa a magia. Se o alvo for reduzido a 0 PV pelo dano desta magia, seu corpo explode, matando-o e causando 6d6 pontos de dano de fogo em todas as criaturas a at&eacute; 3m (Reflexos reduz &agrave; metade). Essa magia n&atilde;o afeta criaturas sem sangue, como construtos ou mortos-vivos.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 195",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 6,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "sust",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Fortitude parcial"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "4d8",
+        "fogo",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "arc",
+    "circulo": "3",
+    "preparada": false,
+    "escola": "nec",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.tVxVarpB0GaAoCp5",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.AAMmiNXUws2T2ZrS",
+   "folder": null
+  },
+  {
+   "_id": "XE0B5DfnTUAaLwDB",
+   "name": "Relâmpago",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/relampago.webp",
+   "effects": [
+    {
+     "_id": "XIxcAX2dWaFDGsfG",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "2d6",
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano em +2d6.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.XE0B5DfnTUAaLwDB.XIxcAX2dWaFDGsfG"
+    },
+    {
+     "_id": "UbfkJ2MbLTgN5Aci",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "area",
+       "value": "alvo (criaturas escolhidas)",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "dano",
+       "value": "6d6",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a área para alvo (criaturas escolhidas). Em vez do normal, você dispara vários relâmpagos, um para cada alvo escolhido, causando 6d6 pontos de dano de eletricidade. Requer 3º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.XE0B5DfnTUAaLwDB.UbfkJ2MbLTgN5Aci"
+    }
+   ],
+   "sort": 60300000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Relâmpago (Padrão, 16 PM) O pileus lança um relâmpago em cada criatura escolhida em alcance médio, causando 16d6+10 pontos de dano de eletricidade (Ref reduz à metade).</p></section><p>Você dispara um poderoso raio que causa 6d6 pontos de dano de eletricidade em todas as criaturas e objetos livres na área.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 203",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "",
+    "area": "linha",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Reflexos reduz à metade"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "6d6",
+        "eletricidade",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "arc",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "evo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.BfYpxjs0NeqhAs8q",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.XE0B5DfnTUAaLwDB",
+   "folder": null
+  },
+  {
+   "_id": "ALl9GMKEI36zlUls",
+   "name": "Tentáculos de Trevas",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/tentaculos-de-trevas.webp",
+   "effects": [
+    {
+     "_id": "nQjQ8UmqV2tmL8Rr",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o raio da área em +3m.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.ALl9GMKEI36zlUls.nQjQ8UmqV2tmL8Rr"
+    },
+    {
+     "_id": "EoTSEUAxLwWL3ZCd",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "equipment": false,
+       "items": ""
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "2d6",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano dos tentáculos em +2d6.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.ALl9GMKEI36zlUls.EoTSEUAxLwWL3ZCd"
+    }
+   ],
+   "sort": 60400000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Tentáculos de Trevas (Padrão, 14 PM) Até o fim da cena, tentáculos surgem em uma esfera de 9m em alcance médio e tentam agarrar todas as criaturas na área. Ao lançar a magia, e no início de cada um de seus turnos, o pileus faz um teste da manobra agarrar (usando Misticismo) contra cada criatura na área. Se ele passar, a criatura é agarrada; se a vítima já está agarrada, é esmagada, sofrendo 10d6 pontos de dano de trevas (cada tentáculo recebe +10 em sua primeira rolagem de dano). A área conta como terreno difícil e os tentáculos são imunes a dano.</p></section><p>Um c&iacute;rculo de energias sombrias se abre no ch&atilde;o, de onde surgem tent&aacute;culos feitos de treva viscosa. Ao lan&ccedil;ar a magia e no in&iacute;cio de cada um de seus turnos, voc&ecirc; faz um teste da manobra agarrar (usando seu b&ocirc;nus de Misticismo) contra cada criatura na &aacute;rea. Se voc&ecirc; passar, a criatura &eacute; agarrada; se a v&iacute;tima j&aacute; est&aacute; agarrada, &eacute; esmagada, sofrendo 4d6 pontos de dano de trevas. A &aacute;rea conta como terreno dif&iacute;cil. Os tent&aacute;culos s&atilde;o imunes a dano.</p>\n<p>@UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.TSRZ1cAIIIpsvOfK]{Agarrado}</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 209",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 6,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "",
+    "area": "esfera com 6m de raio",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [
+     {
+      "name": "Manobra Agarrar",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "mist",
+        "int",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d6",
+        "trevas",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "arc",
+    "circulo": "3",
+    "preparada": false,
+    "escola": "nec",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.IYB0YK1zLune1fs0",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.ALl9GMKEI36zlUls",
+   "folder": null
+  },
+  {
+   "_id": "qJK8j7udj9UxgLuW",
+   "name": "Toque da Morte",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/toque-da-morte.webp",
+   "effects": [
+    {
+     "_id": "3Ivodo4341tW7cj8",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "value": "curto",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para curto. Em vez de tocar no alvo, você dispara um raio púrpura da ponta de seu dedo indicador.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.qJK8j7udj9UxgLuW.3Ivodo4341tW7cj8"
+    },
+    {
+     "_id": "IDwvmjisl8U6TBXN",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "10",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "value": "curto",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "alvo",
+       "value": "inimigos no alcance",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para curto e o alvo para inimigos no alcance. Em vez de tocar no alvo, você dispara raios púrpuras da ponta de seus dedos.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.qJK8j7udj9UxgLuW.IDwvmjisl8U6TBXN"
+    }
+   ],
+   "sort": 60500000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Toque da Morte (Padrão, 17 PM) Uma criatura em alcance curto sofre 10d8+20 pontos de dano de trevas. Um inimigo com menos da metade de seus PV, em vez disso, deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10.</p></section><p>Sua m&atilde;o exala energias letais. A criatura sofre 10d8+10 pontos de dano de trevas. Se estiver com menos da metade de seus PV, em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV s&atilde;o reduzidos a &ndash;10.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 209",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 15,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "touch",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": "Veja texto"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "10d8",
+        "trevas",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "uni",
+    "circulo": "5",
+    "preparada": false,
+    "escola": "nec",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.rQ44Cz2gJdt86jFL",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.qJK8j7udj9UxgLuW",
+   "folder": null
+  },
+  {
+   "_id": "D4A7XAXq6FqBP5lN",
+   "name": "Toque Vampírico",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/toque-vampirico.webp",
+   "effects": [
+    {
+     "_id": "5E8DwOxwvQNlJJN4",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false,
+       "equipment": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a resistência para nenhum. Como parte da execução da magia, você pode fazer um ataque corpo a corpo contra o alvo. Se acertar, causa o dano do ataque e da magia, e recupera pontos de vida iguais à metade do dano da magia.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.D4A7XAXq6FqBP5lN.5E8DwOxwvQNlJJN4"
+    },
+    {
+     "_id": "Fp3cotDEql0E2Dur",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "value": "2d6",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano em +2d6.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.D4A7XAXq6FqBP5lN.Fp3cotDEql0E2Dur"
+    },
+    {
+     "_id": "F7eldvQNlVrQTK7z",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "value": "pessoal",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "alvo",
+       "value": "você",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "duracao",
+       "value": "Cena",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "dano",
+       "value": "3d6",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para pessoal, o alvo para você e a duração para cena. Em vez do normal, a cada rodada você pode gastar uma ação padrão para tocar 1 criatura e causar 3d6 pontos de dano. Você recupera pontos de vida iguais à metade do dano causado. Requer 3º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.D4A7XAXq6FqBP5lN.F7eldvQNlVrQTK7z"
+    },
+    {
+     "origin": null,
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "_id": "RB6jjU1XtXMWaS9K",
+     "changes": [],
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Toque Vampírico (Cena)",
+     "img": "systems/tormenta20/icons/magias/toque-vampirico.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.D4A7XAXq6FqBP5lN.RB6jjU1XtXMWaS9K"
+    }
+   ],
+   "sort": 60600000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Toque Vampírico (Padrão, 9 PM) O pileus faz um ataque corpo a corpo. Se acertar, além do dano normal, causa 10d6+10 pontos de dano de trevas e recupera metade desse dano de trevas em pontos de vida.</p></section><p>Sua mão brilha com energia sombria, causando 6d6 pontos de dano de trevas. Você recupera pontos de vida iguais à metade do dano causado (se causou algum dano).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 209",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "touch",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Fortitude reduz à metade"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "6d6",
+        "trevas",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "arc",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "nec",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.6KvwDBikOdbzhRGv",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.D4A7XAXq6FqBP5lN",
+   "folder": null
+  },
+  {
+   "_id": "XoHUVqwfDBiz8Tqa",
+   "name": "Velocidade",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/velocidade.webp",
+   "effects": [
+    {
+     "_id": "lYxiSwCe3djsAOE6",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "7",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "criaturas escolhidas no alcance",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para criaturas escolhidas no alcance. Requer 4º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.XoHUVqwfDBiz8Tqa.lYxiSwCe3djsAOE6"
+    },
+    {
+     "_id": "wb7wmP9NbM1Q2Bxg",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "7",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "pessoal",
+       "priority": 0
+      },
+      {
+       "key": "alvo",
+       "mode": 5,
+       "value": "você",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para pessoal e o alvo para você. Você acelera sua mente, além de seu corpo. A ação adicional pode ser usada para lançar magias e ativar engenhocas. Requer 4º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.XoHUVqwfDBiz8Tqa.wb7wmP9NbM1Q2Bxg"
+    },
+    {
+     "_id": "1GMNISQtXMIgnH78",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Velocidade",
+     "img": "systems/tormenta20/icons/magias/velocidade.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.XoHUVqwfDBiz8Tqa.1GMNISQtXMIgnH78"
+    },
+    {
+     "_id": "H1gsE0MDcKksovuP",
+     "changes": [
+      {
+       "key": "duracao",
+       "mode": 5,
+       "value": "sustentada",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "aumenta": false,
+       "custo": "0",
+       "durationScene": false,
+       "items": ""
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a duração para cena. A ação adicional que você pode fazer é apenas de movimento. Uma criatura só pode receber uma ação adicional por turno como efeito de Velocidade.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!dHpyyyLHUWOFINRV.XoHUVqwfDBiz8Tqa.H1gsE0MDcKksovuP"
+    }
+   ],
+   "sort": 60700000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Velocidade (Padrão, 10 PM, sustentada) O pileus pode executar uma ação padrão adicional por turno.</p></section><p>O alvo pode realizar uma a&ccedil;&atilde;o padr&atilde;o ou de movimento adicional por turno. Esta a&ccedil;&atilde;o n&atilde;o pode ser usada para lan&ccedil;ar magias e ativar engenhocas.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 210",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "sust",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "tra",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.XWEJNZMs6Wb9uUHF",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.XoHUVqwfDBiz8Tqa",
+   "folder": null
+  },
+  {
+   "_id": "aEnzYkzaUoUyXIUJ",
+   "name": "Magias",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10000000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como um mago de 20º nível (CD 51).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!dHpyyyLHUWOFINRV.aEnzYkzaUoUyXIUJ"
+  }
+ ],
+ "effects": [],
+ "folder": "snPvJDk3JroHGTd0",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 132"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 0,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 8,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 5,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 10,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 5,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": 6,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 51,
+   "pv": {
+    "value": 840,
+    "min": -420,
+    "max": 840,
+    "temp": 0
+   },
+   "pm": {
+    "value": 170,
+    "min": 0,
+    "max": 170,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 0,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 0,
+     "bonus": []
+    },
+    "fly": {
+     "base": 18,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 60,
+    "outros": 42,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 20,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "20",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Pileus Mago (Estágio Três) — ND 20 · Morto-vivo Médio · Especial</em></p><p>Iniciativa +26, Percepção +21, visão no escuro</p><p>Defesa 60, Fort +21, Ref +28, Von +33, imunidade a eletricidade e metamorfose, incorpóreo, redução de dano 10, resistência a magia +5</p><p>Pontos de Vida 840</p><p>Deslocamento voo 18m (12q)</p><p>Pontos de Mana 170</p><p>Corpo a Corpo Toque sombrio +55 (10d6+10 trevas).</p><p>Arcano de Batalha O pileus mago soma sua Inteligência nas rolagens de dano quando lança magias (já contabilizado).</p><p>Contramágica Superior (Reação) Uma vez por rodada, quando vê uma magia ser conjurada, o pileus faz uma contramágica. Se usar Dissipar Magia para isso, ele rola dois dados e usa o melhor resultado.</p><p>Drenar Existência Uma criatura atingida pelo toque drenante do pileus tem seus PV máximos reduzidos em 20 e seus PM máximos reduzidos em 3, ambos por 1 dia, cumulativamente (Fort CD 51 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos. Sempre que reduz os PV e PM máximos de uma criatura desta forma, o pileus recupera essa mesma quantidade de PV e PM.</p><p>Extinguir a Vida Uma criatura que sofra dano de trevas do pileus não pode recuperar pontos de vida por 1 rodada.</p><p>Fluxo de Mana O pileus pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um).</p><p>Magia Acelerada (Livre, +4 PM) Uma vez por rodada, quando lança uma magia com execução de ação de movimento, padrão ou completa, o pileus muda a execução dela para livre.</p><p>Pacto Além das Trevas Criaturas imunes a dano de trevas sofrem metade do dano de trevas do pileus e mortos-vivos não recuperam pontos de vida com esse dano.</p><p>Visão Arcana O pileus está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis.</p><p>Magias Como um mago de 20º nível (CD 51).</p><p>• Desespero Esmagador (Padrão, 8 PM) Criaturas num cone de 6m ficam debilitadas e esmorecidas pela cena (Von reduz para 1 rodada).</p><p>• Dissipar Magia (Padrão, 3 PM) O pileus escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.</p><p>• Ferver Sangue (Padrão, 19 PM, sustentada) O sangue de criaturas escolhidas em alcance curto começa a ferver. Quando a magia é lançada, e no início de cada um de seus turnos, cada criatura sofre 6d8+10 pontos de dano de fogo e fica enjoada por 1 rodada (Fort reduz à metade e evita a condição). Se uma criatura passar em dois testes de Fortitude seguidos, dissipa a magia sobre si. Se um alvo for reduzido a 0 PV pelo dano desta magia, seu corpo explode, matando-o e causando 6d6 pontos de dano de fogo em todas as criaturas a até 3m (Ref reduz à metade). Esta magia não afeta criaturas sem sangue, como construtos ou mortos-vivos.</p><p>• Relâmpago (Padrão, 16 PM) O pileus lança um relâmpago em cada criatura escolhida em alcance médio, causando 16d6+10 pontos de dano de eletricidade (Ref reduz à metade).</p><p>• Tentáculos de Trevas (Padrão, 14 PM) Até o fim da cena, tentáculos surgem em uma esfera de 9m em alcance médio e tentam agarrar todas as criaturas na área. Ao lançar a magia, e no início de cada um de seus turnos, o pileus faz um teste da manobra agarrar (usando Misticismo) contra cada criatura na área. Se ele passar, a criatura é agarrada; se a vítima já está agarrada, é esmagada, sofrendo 10d6 pontos de dano de trevas (cada tentáculo recebe +10 em sua primeira rolagem de dano). A área conta como terreno difícil e os tentáculos são imunes a dano.</p><p>• Toque da Morte (Padrão, 17 PM) Uma criatura em alcance curto sofre 10d8+20 pontos de dano de trevas. Um inimigo com menos da metade de seus PV, em vez disso, deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV são reduzidos a -10.</p><p>• Toque Vampírico (Padrão, 9 PM) O pileus faz um ataque corpo a corpo. Se acertar, além do dano normal, causa 10d6+10 pontos de dano de trevas e recupera metade desse dano de trevas em pontos de vida.</p><p>• Velocidade (Padrão, 10 PM, sustentada) O pileus pode executar uma ação padrão adicional por turno.</p><p>For —, Des 8, Con 5, Int 10, Sab 5, Car 6</p><p>Perícias Acrobacia +26, Conhecimento +28, Diplomacia +24, Intimidação +27, Intuição +23, Misticismo +28, Religião +23.</p><p>Tesouro Dobro.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 132</p>",
+    "public": ""
+   },
+   "raca": "",
+   "tipo": "mor",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "",
+   "resistencias": "imunidade a eletricidade e metamorfose, incorpóreo, resistência a magia +5",
+   "movimento": "",
+   "tesouro": "Dobro",
+   "role": "special",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "med",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 10,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 26,
+    "atributo": "des",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 0,
+    "atributo": "for",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 28,
+    "atributo": "int",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 24,
+    "atributo": "car",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 21,
+    "atributo": "con",
+    "outros": 6,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 26,
+    "atributo": "des",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 27,
+    "atributo": "car",
+    "outros": 5,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 23,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 55,
+    "atributo": "for",
+    "outros": 45,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 28,
+    "atributo": "int",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 21,
+    "atributo": "sab",
+    "outros": 6,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 28,
+    "atributo": "des",
+    "outros": 10,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 23,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 33,
+    "atributo": "sab",
+    "outros": 18,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Pileus Mago (Estágio Três)",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 1,
+  "height": 1,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/skull.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!dHpyyyLHUWOFINRV"
+}

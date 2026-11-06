@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.pdf
+tools/saida/
+__pycache__/

@@ -1,0 +1,3103 @@
+{
+ "_id": "i5ojOGumxadRkDpJ",
+ "name": "Vulto Andarilho",
+ "type": "npc",
+ "img": "icons/svg/skull.svg",
+ "items": [
+  {
+   "_id": "uHdiDhKSPympOE3r",
+   "name": "Duas pancadas",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Duas pancadas +44 (6d12+29, x3, mais 6d6 trevas).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "6d12+29",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 3,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.uHdiDhKSPympOE3r"
+  },
+  {
+   "_id": "wjc2pG8O8ykX4zLg",
+   "name": "Invocar Sombras",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Completa) Uma vez por cena, o vulto conjura sete sombras capangas em espaços desocupados em alcance médio. Elas agem a partir da próxima rodada do vulto, têm deslocamento voo 12m e podem gastar uma ação padrão para causar 2d10 pontos de dano de trevas em uma criatura adjacente (uma criatura viva atingida por uma sombra perde 1d4 PM; Fort CD 44 evita). As sombras são mortos-vivos incorpóreos, têm For -, Des 4, Defesa 35, 1 PV, falham automaticamente em qualquer teste oposto e deixam de ser incorpóreas enquanto expostas à luz do sol. Elas desaparecem quando mortas ou ao fim da cena.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "full",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.wjc2pG8O8ykX4zLg"
+  },
+  {
+   "_id": "jp2t9uEa3odN7XnH",
+   "name": "Olhar Maligno",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Movimento) Uma criatura em alcance médio que possa ver o vulto fica paralisada por 1d4 rodadas (Vont CD 44 evita e a criatura não pode mais ser paralisada por esta habilidade por 1 dia).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "move",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.jp2t9uEa3odN7XnH"
+  },
+  {
+   "_id": "HjB6gYXcSfDpjvTl",
+   "name": "Dissipar Magia",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/dissipar-magia.webp",
+   "effects": [
+    {
+     "_id": "kKZ6L0mhMN53y13e",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "12",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false,
+       "equipment": false
+      }
+     },
+     "changes": [
+      {
+       "key": "area",
+       "mode": 5,
+       "value": "esfera com 9m de raio",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "name": "muda a área para esfera com 9m de raio. Em vez do normal, cria um\nefeito de disjunção. Todas as magias na área são automaticamente dissipadas e todos os itens mágicos na área, exceto aqueles que você estiver carregando, viram itens mundanos por uma cena (com direito a um teste de Vontade para evitar esse efeito). Requer 5º círculo.",
+     "description": "",
+     "statuses": [],
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.HjB6gYXcSfDpjvTl.kKZ6L0mhMN53y13e"
+    }
+   ],
+   "sort": 60000000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Dissipar Magia (Padrão, 3 PM) O vulto escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.</p></section><p>Você dissipa outras magias que estejam ativas, como se sua duração tivesse acabado. Note que efeitos de magias instantâneas não podem ser dissipados (não se pode dissipar uma Bola de Fogo ou Relâmpago depois que já causaram dano...). Se lançar essa magia em uma criatura ou área, faça um teste de Misticismo; você dissipa as magias com CD igual ou menor que o resultado do teste. Se lançada contra um item mágico, o transforma em um item mundano por 1d6 rodadas (Vontade anula).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 191",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "1 criatura ou 1 objeto mágico",
+    "area": "ou esfera com 3m de raio",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "uni",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "abj",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.rfTGYwrXLjcIAIP5",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.HjB6gYXcSfDpjvTl",
+   "folder": null
+  },
+  {
+   "_id": "sSI0FrUjlEKpjDC2",
+   "name": "Erupção Glacial",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/erupcao-glacial.webp",
+   "effects": [
+    {
+     "_id": "lhm7KAuzog8jrlAp",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "equipment": false,
+       "items": ""
+      }
+     },
+     "changes": [
+      {
+       "key": "dano:corte",
+       "mode": 0,
+       "value": "2d6",
+       "priority": 0
+      },
+      {
+       "key": "dano:frio",
+       "mode": 0,
+       "value": "2d6",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano de frio em +2d6 e o dano de corte em +2d6.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.sSI0FrUjlEKpjDC2.lhm7KAuzog8jrlAp"
+    },
+    {
+     "_id": "cv48VdIt4zSGiUiy",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "4",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "area",
+       "mode": 5,
+       "value": "cilindro com 6m de raio",
+       "priority": 0
+      },
+      {
+       "key": "duracao",
+       "mode": 5,
+       "value": "sustentada",
+       "priority": 0
+      },
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "3d6",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a área para cilindro com 6m de raio e 6m de altura e a duração para sustentada. Em vez do normal, a magia cria uma tempestade de granizo que causa 3d6 pontos de dano de impacto e 3d6 pontos de dano de frio em todas as criaturas na área (sem teste de resistência). A tempestade fornece camuflagem leve as criaturas dentro dela e deixa o piso escorregadio. Piso escorregadio conta como terreno difícil e obriga criaturas na área a fazer testes de Acrobacia para equilíbrio (veja o Capítulo 2). Requer 4º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.sSI0FrUjlEKpjDC2.cv48VdIt4zSGiUiy"
+    }
+   ],
+   "sort": 60100000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Erupção Glacial (Padrão, 15 PM) Estacas de gelo irrompem do chão em uma área de 6m de lado em alcance médio. Criaturas na área sofrem 10d6 pontos de dano de corte e 10d6 pontos de dano de frio e ficam caídas (Ref evita o dano de corte e a condição). As estacas duram pela cena, o que torna a área afetada terreno difícil, e concedem cobertura leve para criaturas dentro da área ou atrás dela, mas são destruídas caso sofram dano de fogo mágico.</p></section><p>Estacas de gelo irrompem do ch&atilde;o. Criaturas na &aacute;rea sofrem 4d6 de dano de corte, 4d6 de dano de frio e ficam ca&iacute;das. Passar no teste de Reflexos evita o dano de corte e a queda. As estacas duram pela cena, o que torna a &aacute;rea afetada terreno dif&iacute;cil, e concedem cobertura leve para criaturas dentro da &aacute;rea ou atr&aacute;s dela. As estacas s&atilde;o destru&iacute;das caso sofram qualquer quantidade de dano por fogo m&aacute;gico.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 192",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 6,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "",
+    "area": "quadrado de 6m de lado",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Relfexos parcial"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "4d6",
+        "corte",
+        ""
+       ],
+       [
+        "4d6",
+        "frio",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "arc",
+    "circulo": "3",
+    "preparada": false,
+    "escola": "evo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.FYoig9D5AWpvNOHu",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.sSI0FrUjlEKpjDC2",
+   "folder": null
+  },
+  {
+   "_id": "DHrWtnXIrDtTMWCX",
+   "name": "Escuridão",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/escuridao.webp",
+   "effects": [
+    {
+     "_id": "Uyu4cNLHEutbBxZP",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "1",
+       "aumenta": true
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta a área da escuridão em +1,5m de raio.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DHrWtnXIrDtTMWCX.Uyu4cNLHEutbBxZP"
+    },
+    {
+     "_id": "0YqIyoJ2KmTHGJbz",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "items": ""
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o efeito para fornecer camuflagem total por escuridão total. As sombras bloqueiam a visão na área e através dela.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DHrWtnXIrDtTMWCX.0YqIyoJ2KmTHGJbz"
+    },
+    {
+     "_id": "e70zPpfkALuH0bfC",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "duracao",
+       "mode": 5,
+       "value": "1 dia",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a duração para 1 dia.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DHrWtnXIrDtTMWCX.e70zPpfkALuH0bfC"
+    },
+    {
+     "_id": "7bPquxwkzse2vRjB",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "1 criatura",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "resistencia",
+       "value": "Fortitude parcial",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "condicao",
+       "value": "cego",
+       "mode": 0,
+       "priority": null
+      },
+      {
+       "key": "condicao",
+       "value": "cego",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para 1 criatura e a resistência para Fortitude parcial. Você lança a magia nos olhos do alvo, que fica cego pela cena. Se passar na resistência, fica cego por 1 rodada. Requer 2º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DHrWtnXIrDtTMWCX.7bPquxwkzse2vRjB"
+    },
+    {
+     "_id": "FJgSE1Jwz7HbX1zB",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "pessoal",
+       "priority": 0
+      },
+      {
+       "key": "alvo",
+       "mode": 5,
+       "value": "você",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para pessoal e o alvo para você. Em vez do normal, você é coberto por sombras, recebendo +10 em testes de Furtividade e camuflagem leve. Requer 2º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DHrWtnXIrDtTMWCX.FJgSE1Jwz7HbX1zB"
+    },
+    {
+     "origin": null,
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "_id": "41PPixuYXAVOp2FW",
+     "changes": [],
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Cego (Aprimoramento de +2 PM)",
+     "img": "systems/tormenta20/icons/magias/escuridao.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DHrWtnXIrDtTMWCX.41PPixuYXAVOp2FW"
+    },
+    {
+     "origin": null,
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "_id": "l1QUv78abT0UKdX7",
+     "changes": [
+      {
+       "key": "system.pericias.furt.bonus",
+       "mode": 2,
+       "value": "10",
+       "priority": null
+      }
+     ],
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Bônus em Furtividade (Aprimoramento de +5 PM)",
+     "img": "systems/tormenta20/icons/magias/escuridao.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DHrWtnXIrDtTMWCX.l1QUv78abT0UKdX7"
+    }
+   ],
+   "sort": 60200000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Escuridão (Padrão, 3 PM) Até o fim da cena, um objeto em alcance curto emana escuridão total em um raio de 6m, bloqueando a visão na área e através dela.</p></section><p>O alvo emana sombras em uma &aacute;rea com 6m de raio. Criaturas dentro da &aacute;rea recebem camuflagem leve por escurid&atilde;o leve. As sombras n&atilde;o podem ser iluminadas por nenhuma fonte de luz natural. O objeto pode ser guardado (em um bolso, por exemplo) para interromper a escurid&atilde;o, que voltar&aacute; a funcionar caso o objeto seja revelado. Se lan&ccedil;ar a magia num objeto de uma criatura involunt&aacute;ria, ela tem direito a um teste de Vontade para anul&aacute;-la. <em>Escurid&atilde;o</em> anula <em>Luz</em>.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 193",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 objeto",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": "Vontade anula (veja texto)"
+    },
+    "rolls": [],
+    "tipo": "uni",
+    "circulo": "1",
+    "preparada": false,
+    "escola": "nec",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.Bt364TPpNUI1QVPP",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.DHrWtnXIrDtTMWCX",
+   "folder": null
+  },
+  {
+   "_id": "pdOm8n8ILR4uUJeO",
+   "name": "Invisibilidade",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/invisibilidade.webp",
+   "effects": [
+    {
+     "_id": "A4ryQhkfouqeh1xE",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "1",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "execucao",
+       "mode": 5,
+       "value": "Padrão",
+       "priority": null
+      },
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "Toque",
+       "priority": null
+      },
+      {
+       "key": "alvo",
+       "mode": 5,
+       "value": "1 criatura ou 1 objeto",
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a execução para ação padrão, o alcance para toque e o alvo para 1 criatura ou um objeto Grande ou menor.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.pdOm8n8ILR4uUJeO.A4ryQhkfouqeh1xE"
+    },
+    {
+     "_id": "XX8tEL2JjoPk8mRT",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "duracao",
+       "value": "Cena",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a duração para cena. Requer 3º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.pdOm8n8ILR4uUJeO.XX8tEL2JjoPk8mRT"
+    },
+    {
+     "_id": "kMjVUFdZcjnL1BmE",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "duracao",
+       "mode": 5,
+       "value": "sustentada",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a duração para sustentada. Em vez do normal, o alvo gera uma esfera de invisibilidade. Não pode ser usado em conjunto com outros aprimoramentos. O alvo e todas as criaturas a até 3m dele se tornam invisíveis, como no efeito normal da magia (ainda ficam visíveis caso façam uma ação hostil). A esfera se move juntamente com o alvo; qualquer coisa que saia da esfera fica visível. Requer 3º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.pdOm8n8ILR4uUJeO.kMjVUFdZcjnL1BmE"
+    },
+    {
+     "_id": "KLOI441mZ7UBHYC1",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "7",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "execucao",
+       "mode": 5,
+       "value": "Padrão",
+       "priority": 0
+      },
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "Toque",
+       "priority": 0
+      },
+      {
+       "key": "alvo",
+       "mode": 5,
+       "value": "1 criatura",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a execução para ação padrão, o alcance para toque e o alvo para 1 criatura. A magia não é dissipada caso o alvo faça um ação hostil. Requer 4º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.pdOm8n8ILR4uUJeO.KLOI441mZ7UBHYC1"
+    },
+    {
+     "_id": "aUQdrZuWeUHQZSG8",
+     "changes": [
+      {
+       "key": "system.pericias.furt.bonus",
+       "mode": 2,
+       "value": "20",
+       "priority": null
+      }
+     ],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Invisibilidade",
+     "img": "systems/tormenta20/icons/magias/invisibilidade.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.pdOm8n8ILR4uUJeO.aUQdrZuWeUHQZSG8"
+    }
+   ],
+   "sort": 60300000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Invisibilidade (Padrão, 13 PM) O vulto fica invisível até o fim da cena (recebe camuflagem total, +10 em Furtividade contra ouvir e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques).</p></section><p>O alvo fica invis&iacute;vel (incluindo seu equipamento). Um personagem invis&iacute;vel recebe camuflagem total, +10 em testes de Furtividade contra ouvir e criaturas que n&atilde;o possam v&ecirc;-lo ficam desprevenidas contra seus ataques.</p>\n<p>A magia termina se o alvo faz uma a&ccedil;&atilde;o hostil contra uma criatura. A&ccedil;&otilde;es contra objetos livres n&atilde;o dissipam a Invisibilidade (voc&ecirc; pode tocar ou apanhar objetos que n&atilde;o estejam sendo segurados por outras criaturas). Causar dano indiretamente &mdash; por exemplo, acendendo o pavio de um barril de p&oacute;lvora que vai detonar mais tarde &mdash; n&atilde;o &eacute; considerado um ataque.</p>\n<p>Objetos soltos pelo alvo voltam a ser vis&iacute;veis e objetos apanhados por ele ficam invis&iacute;veis. Qualquer parte de um item carregado que se estenda al&eacute;m de seu alcance corpo a corpo natural se torna vis&iacute;vel. Uma luz nunca fica invis&iacute;vel (mesmo que sua fonte seja).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 195",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 1,
+     "units": "round",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "self",
+    "alvo": "você",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "ilu",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.A3RFvVgOvODWHtvc",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.pdOm8n8ILR4uUJeO",
+   "folder": null
+  },
+  {
+   "_id": "coPGzvGrRWqxNKpb",
+   "name": "Miasma Mefítico",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/miasma-mefitico.webp",
+   "effects": [
+    {
+     "_id": "fyrWEjDhKy6MU5of",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "Toque",
+       "priority": 0
+      },
+      {
+       "key": "area",
+       "mode": 5,
+       "value": "alvo (1 criatura com 0 PV ou menos)",
+       "priority": 0
+      },
+      {
+       "key": "duracao",
+       "mode": 5,
+       "value": "instantânea",
+       "priority": 0
+      },
+      {
+       "key": "resistencia",
+       "mode": 5,
+       "value": "Fortitude anula",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para toque, a área para alvo (1 criatura com 0 PV ou menos), a duração para instantânea e a resistência para Fortitude anula. e adiciona componente material (pó de ônix no valor de T$ 10). Em vez do normal, você canaliza o Miasma contra uma vítima. Se falhar na resistência, ela morre e você recebe +2 na CD de suas magias por 1 dia. Se passar, fica imune a este truque por um dia.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.coPGzvGrRWqxNKpb.fyrWEjDhKy6MU5of"
+    },
+    {
+     "_id": "1VEcwX3EAmPtckY8",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "1d6",
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano em +1d6.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.coPGzvGrRWqxNKpb.1VEcwX3EAmPtckY8"
+    },
+    {
+     "_id": "0jY8pxm5JZUViwRp",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "3",
+       "aumenta": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o tipo do dano para trevas.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.coPGzvGrRWqxNKpb.0jY8pxm5JZUViwRp"
+    }
+   ],
+   "sort": 60400000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Miasma Mefítico (Padrão, 16 PM) Uma nuvem de 6m de raio se forma em alcance médio. Criaturas na área sofrem 10d6 pontos de dano de trevas e ficam enjoadas por 1 rodada (Fort reduz à metade e evita a condição).</p></section><p>A &aacute;rea &eacute; coberta por emana&ccedil;&otilde;es letais. Criaturas na &aacute;rea sofrem 5d6 pontos de dano de &aacute;cido e ficam @UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.BUMyxT4YI9mdC8Aj]{Enjoado} por 1 rodada. Se passarem na resist&ecirc;ncia, sofrem metade do dano e n&atilde;o ficam enjoadas.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 199",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "",
+    "area": "nuvem com 6m de raio",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": "Fortitude (veja texto)"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "5d6",
+        "acido",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "div",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "nec",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.bs3SycPD7ENusrfH",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.coPGzvGrRWqxNKpb",
+   "folder": null
+  },
+  {
+   "_id": "DqH6DGRfDuXNvFS0",
+   "name": "Toque da Morte",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/toque-da-morte.webp",
+   "effects": [
+    {
+     "_id": "3Ivodo4341tW7cj8",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "value": "curto",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para curto. Em vez de tocar no alvo, você dispara um raio púrpura da ponta de seu dedo indicador.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DqH6DGRfDuXNvFS0.3Ivodo4341tW7cj8"
+    },
+    {
+     "_id": "IDwvmjisl8U6TBXN",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "10",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "value": "curto",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "alvo",
+       "value": "inimigos no alcance",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para curto e o alvo para inimigos no alcance. Em vez de tocar no alvo, você dispara raios púrpuras da ponta de seus dedos.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.DqH6DGRfDuXNvFS0.IDwvmjisl8U6TBXN"
+    }
+   ],
+   "sort": 60500000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Toque da Morte (Padrão, 15 PM) Uma criatura adjacente sofre 10d8+10 pontos de dano de trevas. Se estiver com menos da metade de seus PV, em vez disso ela deve fazer um teste de Fortitude; se passar sofre o dano normal, caso contrário seus PV são reduzidos a -10.</p></section><p>Sua m&atilde;o exala energias letais. A criatura sofre 10d8+10 pontos de dano de trevas. Se estiver com menos da metade de seus PV, em vez disso deve fazer um teste de Fortitude. Se passar, sofre o dano normal. Se falhar, seus PV s&atilde;o reduzidos a &ndash;10.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 209",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 15,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "touch",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": "Veja texto"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "10d8",
+        "trevas",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "uni",
+    "circulo": "5",
+    "preparada": false,
+    "escola": "nec",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.rQ44Cz2gJdt86jFL",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.DqH6DGRfDuXNvFS0",
+   "folder": null
+  },
+  {
+   "_id": "4aQSttuZOA3dnbDy",
+   "name": "Velocidade",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/velocidade.webp",
+   "effects": [
+    {
+     "_id": "lYxiSwCe3djsAOE6",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "7",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "criaturas escolhidas no alcance",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para criaturas escolhidas no alcance. Requer 4º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.4aQSttuZOA3dnbDy.lYxiSwCe3djsAOE6"
+    },
+    {
+     "_id": "wb7wmP9NbM1Q2Bxg",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "7",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "pessoal",
+       "priority": 0
+      },
+      {
+       "key": "alvo",
+       "mode": 5,
+       "value": "você",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para pessoal e o alvo para você. Você acelera sua mente, além de seu corpo. A ação adicional pode ser usada para lançar magias e ativar engenhocas. Requer 4º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.4aQSttuZOA3dnbDy.wb7wmP9NbM1Q2Bxg"
+    },
+    {
+     "_id": "1GMNISQtXMIgnH78",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Velocidade",
+     "img": "systems/tormenta20/icons/magias/velocidade.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.4aQSttuZOA3dnbDy.1GMNISQtXMIgnH78"
+    },
+    {
+     "_id": "H1gsE0MDcKksovuP",
+     "changes": [
+      {
+       "key": "duracao",
+       "mode": 5,
+       "value": "sustentada",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "aumenta": false,
+       "custo": "0",
+       "durationScene": false,
+       "items": ""
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a duração para cena. A ação adicional que você pode fazer é apenas de movimento. Uma criatura só pode receber uma ação adicional por turno como efeito de Velocidade.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.4aQSttuZOA3dnbDy.H1gsE0MDcKksovuP"
+    }
+   ],
+   "sort": 60600000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Velocidade (Padrão, 3 PM, sustentada) O vulto pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias.</p></section><p>O alvo pode realizar uma a&ccedil;&atilde;o padr&atilde;o ou de movimento adicional por turno. Esta a&ccedil;&atilde;o n&atilde;o pode ser usada para lan&ccedil;ar magias e ativar engenhocas.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 210",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "sust",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "tra",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.XWEJNZMs6Wb9uUHF",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.4aQSttuZOA3dnbDy",
+   "folder": null
+  },
+  {
+   "_id": "OjND1wDHEZEEtRTL",
+   "name": "Viagem Planar",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/viagem-planar.webp",
+   "effects": [
+    {
+     "_id": "ju7VLF8WTD1Z1tnN",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alvo",
+       "value": "até cinco criaturas voluntárias que você esteja tocando",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para até cinco criaturas voluntárias que você esteja tocando.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!i5ojOGumxadRkDpJ.OjND1wDHEZEEtRTL.ju7VLF8WTD1Z1tnN"
+    }
+   ],
+   "sort": 60700000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Viagem Planar (Padrão, 10 PM) O vulto viaja para outro Plano.</p></section><p>Você viaja instantaneamente para outro plano da Criação. Lá, você chega de 10 a 1.000km do destino pretendido (role 1d100 e multiplique por 10km).</p><p><i>Componente material:</i> um bastão de metal precioso em forma de forquilha (no valor de T$ 1.000). O tipo de metal determina para qual plano de existência você será enviado. Os metais que levam a dimensões específicas podem ser difíceis de encontrar, de acordo com o mestre.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 211",
+    "ativacao": {
+     "execucao": "full",
+     "custo": 10,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "touch",
+    "alvo": "pessoal",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "uni",
+    "circulo": "4",
+    "preparada": false,
+    "escola": "con",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.3rR4d2fWU6uIqVNv",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.OjND1wDHEZEEtRTL",
+   "folder": null
+  },
+  {
+   "_id": "8zi9FO0rt5Kim3yD",
+   "name": "Magias",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10000000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como um feiticeiro de 16º nível (CD 44).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!i5ojOGumxadRkDpJ.8zi9FO0rt5Kim3yD"
+  }
+ ],
+ "effects": [],
+ "folder": "EKl2q07Ml76Q7JZ2",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 170"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 9,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 2,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 3,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 3,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": 4,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": 4,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 44,
+   "pv": {
+    "value": 714,
+    "min": -357,
+    "max": 714,
+    "temp": 0
+   },
+   "pm": {
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 12,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 0,
+     "bonus": []
+    },
+    "fly": {
+     "base": 0,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 48,
+    "outros": 36,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 16,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "16",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Vulto Andarilho — ND 16 · Morto-vivo Enorme · Especial</em></p><p>Iniciativa +16, Percepção +18, visão no escuro</p><p>Defesa 48, Fort +16, Ref +24, Von +30</p><p>Pontos de Vida 714</p><p>Deslocamento 12m (8q)</p><p>Pontos de Mana 100</p><p>Corpo a Corpo Duas pancadas +44 (6d12+29, x3, mais 6d6 trevas).</p><p>Invocar Sombras (Completa) Uma vez por cena, o vulto conjura sete sombras capangas em espaços desocupados em alcance médio. Elas agem a partir da próxima rodada do vulto, têm deslocamento voo 12m e podem gastar uma ação padrão para causar 2d10 pontos de dano de trevas em uma criatura adjacente (uma criatura viva atingida por uma sombra perde 1d4 PM; Fort CD 44 evita). As sombras são mortos-vivos incorpóreos, têm For -, Des 4, Defesa 35, 1 PV, falham automaticamente em qualquer teste oposto e deixam de ser incorpóreas enquanto expostas à luz do sol. Elas desaparecem quando mortas ou ao fim da cena.</p><p>Magia Acelerada (Livre, +4 PM) Uma vez por rodada, quando lança uma magia com execução de ação de movimento, padrão ou completa, o vulto muda a execução dela para livre.</p><p>Olhar Maligno (Movimento) Uma criatura em alcance médio que possa ver o vulto fica paralisada por 1d4 rodadas (Vont CD 44 evita e a criatura não pode mais ser paralisada por esta habilidade por 1 dia).</p><p>Magias Como um feiticeiro de 16º nível (CD 44).</p><p>• Dissipar Magia (Padrão, 3 PM) O vulto escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo. Todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas.</p><p>• Erupção Glacial (Padrão, 15 PM) Estacas de gelo irrompem do chão em uma área de 6m de lado em alcance médio. Criaturas na área sofrem 10d6 pontos de dano de corte e 10d6 pontos de dano de frio e ficam caídas (Ref evita o dano de corte e a condição). As estacas duram pela cena, o que torna a área afetada terreno difícil, e concedem cobertura leve para criaturas dentro da área ou atrás dela, mas são destruídas caso sofram dano de fogo mágico.</p><p>• Escuridão (Padrão, 3 PM) Até o fim da cena, um objeto em alcance curto emana escuridão total em um raio de 6m, bloqueando a visão na área e através dela.</p><p>• Invisibilidade (Padrão, 13 PM) O vulto fica invisível até o fim da cena (recebe camuflagem total, +10 em Furtividade contra ouvir e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques).</p><p>• Miasma Mefítico (Padrão, 16 PM) Uma nuvem de 6m de raio se forma em alcance médio. Criaturas na área sofrem 10d6 pontos de dano de trevas e ficam enjoadas por 1 rodada (Fort reduz à metade e evita a condição).</p><p>• Toque da Morte (Padrão, 15 PM) Uma criatura adjacente sofre 10d8+10 pontos de dano de trevas. Se estiver com menos da metade de seus PV, em vez disso ela deve fazer um teste de Fortitude; se passar sofre o dano normal, caso contrário seus PV são reduzidos a -10.</p><p>• Velocidade (Padrão, 3 PM, sustentada) O vulto pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias.</p><p>• Viagem Planar (Padrão, 10 PM) O vulto viaja para outro Plano.</p><p>For 9, Des 2, Con 3, Int 3, Sab 4, Car 4</p><p>Perícias Diplomacia +20, Furtividade +13, Intimidação +20, Intuição +20, Misticismo +19, Religião +20.</p><p>Tesouro Padrão.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 170</p>",
+    "public": ""
+   },
+   "raca": "",
+   "tipo": "mor",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "",
+   "resistencias": "",
+   "movimento": "",
+   "tesouro": "Padrão",
+   "role": "special",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "eno",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 0,
+    "atributo": "for",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 20,
+    "atributo": "car",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 16,
+    "atributo": "con",
+    "outros": 5,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 13,
+    "atributo": "des",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 16,
+    "atributo": "des",
+    "outros": 6,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 20,
+    "atributo": "car",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 20,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 44,
+    "atributo": "for",
+    "outros": 27,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 19,
+    "atributo": "int",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 18,
+    "atributo": "sab",
+    "outros": 6,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 24,
+    "atributo": "des",
+    "outros": 14,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 20,
+    "atributo": "sab",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 30,
+    "atributo": "sab",
+    "outros": 18,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Vulto Andarilho",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 3,
+  "height": 3,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/skull.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!i5ojOGumxadRkDpJ"
+}

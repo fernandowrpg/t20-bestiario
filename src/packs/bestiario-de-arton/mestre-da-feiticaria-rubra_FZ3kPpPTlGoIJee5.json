@@ -1,0 +1,2952 @@
+{
+ "_id": "FZ3kPpPTlGoIJee5",
+ "name": "Mestre da Feitiçaria Rubra",
+ "type": "npc",
+ "img": "icons/svg/terror.svg",
+ "items": [
+  {
+   "_id": "aGpWtaih8bKtIlHz",
+   "name": "Mordida",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Mordida +35 (4d6+8 mais 4d12 ácido).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d6+8",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ],
+       [
+        "4d12",
+        "acido"
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.aGpWtaih8bKtIlHz"
+  },
+  {
+   "_id": "vha6ElakzVCH2usj",
+   "name": "Duas garras",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Duas garras +35 (4d8+8 mais 4d12 ácido).</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "equipado": 1,
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "for",
+        ""
+       ],
+       [
+        "0",
+        "",
+        ""
+       ]
+      ],
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "4d8+8",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ],
+       [
+        "4d12",
+        "acido"
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "proficiencia": "natural",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "ataques": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.vha6ElakzVCH2usj"
+  },
+  {
+   "_id": "RTGdQIINRyAauFPH",
+   "name": "Desprezar a Realidade",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10100000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Livre, 2 PM) Até o início do seu próximo turno, o mestre da feitiçaria rubra ignora terreno difícil e causa 40% de chance de falha em efeitos usados contra ele.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 2,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.RTGdQIINRyAauFPH"
+  },
+  {
+   "_id": "HEIiPwD8LnBuSZwi",
+   "name": "Linhagem Rubra",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10200000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>O custo das magias Amedrontar, Armadura Arcana, Concentração de Combate, Enxame Rubro de Ichabod e Flecha Ácida do mestre diminui em -1 PM (já contabilizado).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.HEIiPwD8LnBuSZwi"
+  },
+  {
+   "_id": "AEGYB7ej0LgGBrDo",
+   "name": "Reação Corrosiva",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10300000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Livre) Se o mestre acerta os dois ataques de garra em uma mesma criatura na mesma rodada, ele injeta ácido no sangue dela. No início de cada um dos turnos da criatura, ela deve fazer um teste de Fortitude (CD 37). Se falhar, sofre 8d4 pontos de dano de ácido. Se passar, evita o dano nessa rodada e, se passar duas vezes em sequência, elimina o ácido. Se a criatura for reduzida a 0 PV por este dano de ácido, seu corpo explode, matando-a e causando 8d4 pontos de dano de ácido em todas as criaturas a até 3m (Ref CD 37 reduz à metade). Essa habilidade não afeta criaturas sem sangue, como construtos ou mortos-vivos.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.AEGYB7ej0LgGBrDo"
+  },
+  {
+   "_id": "sXzs2DDEjL6LZpc9",
+   "name": "Sangue Ácido",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10400000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando o mestre sofre dano por um ataque corpo a corpo, o atacante sofre 5 pontos de dano de ácido.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.sXzs2DDEjL6LZpc9"
+  },
+  {
+   "_id": "Es1nSQCrzadMWJXK",
+   "name": "Tempo Místico",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10500000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Livre, 2 PM) Uma vez por rodada, quando lança uma magia com execução de ação de movimento, padrão ou completa, o mestre pode perder 1d6, 1d8 ou 1d12 PV para diminuir o tempo de execução da magia em um, dois ou três passos, respectivamente (até um mínimo de ação livre). Essa perda de vida só pode ser curada com descanso.</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 2,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.Es1nSQCrzadMWJXK"
+  },
+  {
+   "_id": "OQ6xtFQus3VQx9RD",
+   "name": "Amedrontar",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/amedrontar.webp",
+   "effects": [
+    {
+     "_id": "OciQRYsZfkxrckgc",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "aumenta": false,
+       "durationScene": false,
+       "items": ""
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "tint": "#ffffff",
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "alvos que falhem na resistência ficam apavorados por 1d4+1 rodadas, em vez de apenas 1.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.OQ6xtFQus3VQx9RD.OciQRYsZfkxrckgc"
+    },
+    {
+     "_id": "iywixWPGn64reD5Q",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "aumenta": false,
+       "durationScene": false,
+       "items": ""
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "tint": "#ffffff",
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alvo para 1 criatura.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.OQ6xtFQus3VQx9RD.iywixWPGn64reD5Q"
+    },
+    {
+     "_id": "8UpVbn31ZXEq8328",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5"
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "afeta todos os alvos válidos a sua escolha dentro do alcance.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.OQ6xtFQus3VQx9RD.8UpVbn31ZXEq8328"
+    },
+    {
+     "_id": "f4qLZKk0usOOS9yV",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Amedrontado",
+     "img": "systems/tormenta20/icons/magias/amedrontar.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.OQ6xtFQus3VQx9RD.f4qLZKk0usOOS9yV"
+    }
+   ],
+   "sort": 60000000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Amedrontar (Padrão, 5 PM) Animais e humanoides em alcance curto à escolha do iniciado ficam apavorados por 1 rodada e depois abalados (Von reduz para abalado por 1d4 rodadas).</p></section><p>O alvo &eacute; envolvido por energias sombrias e assustadoras. Se falhar na resist&ecirc;ncia, fica <a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.5n105JaAFlwIfkyX\" data-id=\"5n105JaAFlwIfkyX\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">Apavorado</a> por 1 rodada, depois @UUID[JournalEntry.s15J5SOYixL3Ajzr.JournalEntryPage.ccqJXj25EVIzUhzo]{Abalado}. Se passar, fica abalado por 1d4 rodadas.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 179",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 animal ou humanoide",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Vontade parcial"
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "1",
+    "preparada": false,
+    "escola": "nec",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.m14TgW19d1JTBz8U",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.OQ6xtFQus3VQx9RD",
+   "folder": null
+  },
+  {
+   "_id": "EEQth1G4VVyb6YI6",
+   "name": "Armadura Arcana",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/armadura-arcana.webp",
+   "effects": [
+    {
+     "_id": "W1WgvYbVsADr5MNL",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "1",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "equipment": false,
+       "items": ""
+      }
+     },
+     "changes": [
+      {
+       "key": "execucao",
+       "mode": 5,
+       "value": "reacao",
+       "priority": 0
+      },
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "0",
+       "priority": 0
+      },
+      {
+       "key": "duracao",
+       "mode": 5,
+       "value": "1 turno",
+       "priority": 0
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "tint": "#ffffff",
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a execução para reação. Em vez do normal, você cria um escudo mágico que fornece +5 na Defesa contra o próximo ataque que sofrer até o fim do turno atual (cumulativo com o bônus fornecido pelo efeito básico desta magia e armaduras).",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.EEQth1G4VVyb6YI6.W1WgvYbVsADr5MNL"
+    },
+    {
+     "_id": "cOarntwGdXunJRyH",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "1",
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "tint": "#ffffff",
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o bônus na Defesa em +1.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.EEQth1G4VVyb6YI6.cOarntwGdXunJRyH"
+    },
+    {
+     "_id": "CRwrKNwVnkcuyYGR",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "equipment": false,
+       "items": ""
+      }
+     },
+     "changes": [
+      {
+       "key": "duracao",
+       "value": "1 dia",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "tint": "#ffffff",
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": "tormenta20",
+      "systemVersion": "1.4.214",
+      "createdTime": null,
+      "modifiedTime": 1746424157730,
+      "lastModifiedBy": "t20builder000000",
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a duração para 1 dia.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.EEQth1G4VVyb6YI6.CRwrKNwVnkcuyYGR"
+    },
+    {
+     "_id": "DXFHELXQkzrakHqN",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "5",
+       "priority": null
+      }
+     ],
+     "disabled": false,
+     "duration": {
+      "startTime": null,
+      "rounds": 999,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "tint": "#ffffff",
+     "transfer": false,
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Armadura Arcana",
+     "img": "systems/tormenta20/icons/magias/armadura-arcana.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.EEQth1G4VVyb6YI6.DXFHELXQkzrakHqN"
+    }
+   ],
+   "sort": 60100000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Armadura Arcana (Reação, 1 PM) O mestre recebe +5 na Defesa contra o próximo ataque que sofrer.</p></section><p>Esta magia cria uma película protetora invisível, mas tangível, fornecendo +5 na Defesa. Esse bônus é cumulativo com outras magias, mas não com bônus fornecido por armaduras.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 181",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "self",
+    "alvo": "Você",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "1",
+    "preparada": false,
+    "escola": "abj",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.vUsntyToyQl1TuFZ",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.EEQth1G4VVyb6YI6",
+   "folder": null
+  },
+  {
+   "_id": "r7o0Kfye94NyNxxI",
+   "name": "Concentração de Combate",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/concentracao-de-combate.webp",
+   "effects": [
+    {
+     "_id": "LvHT31M1UBY6eqIL",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "execucao",
+       "value": "padrão",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "duracao",
+       "value": "Cena",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a execução para padrão e a duração para cena. Requer 2º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.r7o0Kfye94NyNxxI.LvHT31M1UBY6eqIL"
+    },
+    {
+     "_id": "2XHxvPBjrqijXw9I",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5",
+       "aumenta": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "além do normal, ao atacar você, um inimigo deve rolar dois dados e usar o pior resultado. Requer 3º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.r7o0Kfye94NyNxxI.2XHxvPBjrqijXw9I"
+    },
+    {
+     "_id": "NrEAsxaqpXAWVZ5d",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "9",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "execucao",
+       "value": "padrão",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "alcance",
+       "value": "curto",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "alvo",
+       "value": "criaturas escolhidas",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "duracao",
+       "value": "Cena",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a execução para padrão, o alcance para curto, o alvo para criaturas escolhidas e a duração para cena. Requer 4º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.r7o0Kfye94NyNxxI.NrEAsxaqpXAWVZ5d"
+    },
+    {
+     "_id": "Q9xwXkqN6t3iEhBD",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "14",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "execucao",
+       "value": "padrão",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "duracao",
+       "value": "1 dia",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "condicao",
+       "value": "surpreendido",
+       "mode": 0,
+       "priority": null
+      },
+      {
+       "key": "condicao",
+       "value": "desprevenido",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda a execução para padrão e a duração para 1 dia. Além do normal, você recebe um sexto sentido que o avisa de qualquer perigo ou ameaça. Você fica imune às condições surpreendido e desprevenido e recebe +10 em Defesa e Reflexos. Requer 5º círculo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.r7o0Kfye94NyNxxI.Q9xwXkqN6t3iEhBD"
+    },
+    {
+     "_id": "WxhX0zABmEAJkQ13",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Concentração de Combate (Cena)",
+     "img": "systems/tormenta20/icons/magias/concentracao-de-combate.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.r7o0Kfye94NyNxxI.WxhX0zABmEAJkQ13"
+    },
+    {
+     "_id": "5QruiDpfvtxwupil",
+     "changes": [
+      {
+       "key": "system.pericias.refl.bonus",
+       "mode": 2,
+       "value": "10",
+       "priority": null
+      },
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "10",
+       "priority": null
+      }
+     ],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Concentração de Combate (Aprimoramento +14 PM)",
+     "img": "systems/tormenta20/icons/magias/concentracao-de-combate.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.r7o0Kfye94NyNxxI.5QruiDpfvtxwupil"
+    }
+   ],
+   "sort": 60200000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Concentração de Combate (Padrão, 7 PM) Até o fim da cena, quando faz um ataque, o mestre rola dois dados e usa o melhor resultado, e quando um oponente ataca o mestre, rola dois dados e usa o pior resultado.</p></section><p>Voc&ecirc; amplia sua percep&ccedil;&atilde;o, antecipando movimentos dos inimigos e achando brechas em sua defesa. Quando fazum teste de ataque, voc&ecirc; rola dois dados e usa o melhor resultado</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 185",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 1,
+     "units": "round",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "self",
+    "alvo": "Você",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "arc",
+    "circulo": "1",
+    "preparada": false,
+    "escola": "adv",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.lAsj1NrA2J6GbvDi",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.r7o0Kfye94NyNxxI",
+   "folder": null
+  },
+  {
+   "_id": "fPUrocOkKQANFIAB",
+   "name": "Enxame Rubro de Ichabod",
+   "type": "poder",
+   "img": "icons/svg/daze.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 50400000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>(Padrão, 13 PM, sustentada) Um enxame de pequenos parasitas da Tormenta surge em alcance médio e ocupa uma área de 3m. No fim de cada turno do mestre, o enxame causa 6d12 pontos de dano de ácido a qualquer criatura em seu espaço (Ref reduz à metade). No início de cada um de seus turnos, o mestre rola 1d6. Em um resultado 5 ou 6, um novo enxame surge adjacente a um já existente à sua escolha. O mestre pode gastar uma ação de movimento para mover todos os enxames com deslocamento de 12m, mas eles não podem ocupar o mesmo espaço.</p><p>Magias Como um feiticeiro de linhagem rubra de 13º nível (CD 37).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 13,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.fPUrocOkKQANFIAB"
+  },
+  {
+   "_id": "zldOHyZzIFIHBSEt",
+   "name": "Flecha Ácida",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/flecha-acida.webp",
+   "effects": [
+    {
+     "_id": "d7IDFbjShdJHo90C",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "1",
+       "aumenta": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false,
+       "items": ""
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "além do normal, se o alvo coberto pelo muco ácido estiver usando armadura ou escudo, o item é corroído. Isso reduz o bônus na Defesa do item em 1 ponto permanentemente. O item pode ser consertado, restaurando seu bônus (veja Ofício, na página 121).",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.zldOHyZzIFIHBSEt.d7IDFbjShdJHo90C"
+    },
+    {
+     "_id": "o83N6WPQ3oDMLduk",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "spell": false,
+       "consumable": false,
+       "durationScene": false
+      }
+     },
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "-1",
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta a redução na Defesa em +1.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.zldOHyZzIFIHBSEt.o83N6WPQ3oDMLduk"
+    },
+    {
+     "_id": "fzlrQ06DWbl87Kff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": true
+      }
+     },
+     "changes": [
+      {
+       "key": "dano",
+       "value": "1d6",
+       "mode": 0,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "aumenta o dano inicial e o dano por rodada em +1d6.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.zldOHyZzIFIHBSEt.fzlrQ06DWbl87Kff"
+    },
+    {
+     "_id": "vqa8aByQVq4iTE3W",
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "-1",
+       "priority": null
+      }
+     ],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Redução na Defesa",
+     "img": "systems/tormenta20/icons/magias/flecha-acida.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.zldOHyZzIFIHBSEt.vqa8aByQVq4iTE3W"
+    },
+    {
+     "_id": "IOpuJUda7G0inDRZ",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 2,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Flecha Ácida",
+     "img": "systems/tormenta20/icons/magias/flecha-acida.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.zldOHyZzIFIHBSEt.IOpuJUda7G0inDRZ"
+    }
+   ],
+   "sort": 60400000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Flecha Ácida (Padrão, 13 PM) O mestre dispara um projétil em uma criatura ou objeto em alcance médio. O alvo sofre 9d6 pontos de dano de ácido e fica coberto por muco corrosivo que causa 7d6 pontos de dano de ácido no início de cada um de seus dois próximos turnos. Além disso, se o alvo estiver usando armadura ou escudo, o muco corrói o item, reduzindo seu bônus na Defesa em 1 ponto permanentemente (Ref reduz à metade e evita o muco).</p></section><p>Voc&ecirc; dispara um proj&eacute;til que causa 4d6 pontos de dano de &aacute;cido. Se falhar no teste de resist&ecirc;ncia, o alvo tamb&eacute;m fica coberto por um muco corrosivo, sofrendo mais 2d6 de dano de &aacute;cido no in&iacute;cio de seus dois pr&oacute;ximos turnos. Se lan&ccedil;ada contra um objeto que n&atilde;o esteja em posse de uma criatura a magia causa dano dobrado e ignora a RD do objeto.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 193",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "1 criatura ou objeto",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "int",
+     "bonus": 0,
+     "txt": "Reflexos parcial"
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "4d6",
+        "acido",
+        ""
+       ]
+      ],
+      "versatil": ""
+     }
+    ],
+    "tipo": "arc",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "evo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.C2TqT4GXlsNiJPxb",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.zldOHyZzIFIHBSEt",
+   "folder": null
+  },
+  {
+   "_id": "owUajKR2j1AsnxmI",
+   "name": "Libertação",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/libertacao.webp",
+   "effects": [
+    {
+     "_id": "BU5LpJQ6K0yU6b69",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "além do normal, o alvo pode caminhar sobre a água ou outros líquidos com seu deslocamento normal. Entretanto, isso não protege contra qualquer efeito que o líquido possa causar (o alvo pode andar sobre lava, mas ainda vai sofrer dano).",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.owUajKR2j1AsnxmI.BU5LpJQ6K0yU6b69"
+    },
+    {
+     "_id": "u8bzRTaoDhpbpzhf",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "além do normal, o alvo pode escolher 20 em todos os testes de Atletismo.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.owUajKR2j1AsnxmI.u8bzRTaoDhpbpzhf"
+    },
+    {
+     "_id": "7dRxwyy8vnjpqZQt",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "2",
+       "aumenta": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "além do normal, o alvo pode escolher 20 em todos os testes de Acrobacia e pode fazer todas as manobras desta perícia mesmo sem treinamento.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.owUajKR2j1AsnxmI.7dRxwyy8vnjpqZQt"
+    },
+    {
+     "_id": "LIKqu6OYnyws76oU",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5",
+       "aumenta": false
+      }
+     },
+     "changes": [
+      {
+       "key": "alcance",
+       "value": "curto",
+       "mode": 5,
+       "priority": null
+      },
+      {
+       "key": "alvo",
+       "value": "até 5 criaturas",
+       "mode": 5,
+       "priority": null
+      }
+     ],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "muda o alcance para curto e o alvo para até 5 criaturas.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.owUajKR2j1AsnxmI.LIKqu6OYnyws76oU"
+    },
+    {
+     "_id": "dOfwy9dacju0gnNw",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "self": true,
+       "custo": "5",
+       "aumenta": false
+      }
+     },
+     "changes": [],
+     "disabled": true,
+     "duration": {
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "pode dissipar Aprisionamento.",
+     "img": "icons/svg/upgrade.svg",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.owUajKR2j1AsnxmI.dOfwy9dacju0gnNw"
+    },
+    {
+     "_id": "Yl8ldw9I3O8fnXxN",
+     "changes": [],
+     "disabled": false,
+     "duration": {
+      "rounds": 1,
+      "startTime": null,
+      "seconds": null,
+      "combat": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "origin": null,
+     "transfer": false,
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true
+      }
+     },
+     "tint": "#ffffff",
+     "_stats": {
+      "coreVersion": "13.342",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "name": "Libertação",
+     "img": "systems/tormenta20/icons/magias/libertacao.webp",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "statuses": [],
+     "sort": 0,
+     "_key": "!actors.items.effects!FZ3kPpPTlGoIJee5.owUajKR2j1AsnxmI.Yl8ldw9I3O8fnXxN"
+    }
+   ],
+   "sort": 60500000,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<section class=\"secret\"><p><strong>Uso pela criatura:</strong> Libertação (Padrão, 10 PM) Até o fim da cena, o mestre fica imune a efeitos de movimento e ignora qualquer efeito que impeça ou restrinja seu deslocamento.</p></section><p>O alvo fica imune a efeitos de movimento e ignora qualquer efeito que impe&ccedil;a ou restrinja seu deslocamento. Por fim, pode usar habilidades que exigem liberdade de movimentos mesmo se estiver usando armadura ou escudo.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Tormenta20 — Edição Jogo do Ano, p. 196",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 10,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "uni",
+    "circulo": "4",
+    "preparada": false,
+    "escola": "abj",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.tormenta20.magias.ELDmNrdpN7g8M3iJ",
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.owUajKR2j1AsnxmI",
+   "folder": null
+  },
+  {
+   "_id": "JOICno5vGURUQ5z6",
+   "name": "Magias",
+   "type": "poder",
+   "img": "icons/svg/book.svg",
+   "effects": [],
+   "flags": {},
+   "folder": null,
+   "sort": 10000000,
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como um feiticeiro de linhagem rubra de 13º nível (CD 37).</p>",
+     "unidentified": ""
+    },
+    "source": "Bestiário de Arton",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.351",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   },
+   "_key": "!actors.items!FZ3kPpPTlGoIJee5.JOICno5vGURUQ5z6"
+  }
+ ],
+ "effects": [],
+ "folder": "lO8CE2KEJW7cxA2E",
+ "sort": 0,
+ "flags": {
+  "bestiario-de-arton-t20": {
+   "fonte": "Bestiário de Arton, p. 77"
+  }
+ },
+ "system": {
+  "atributos": {
+   "for": {
+    "value": 0,
+    "bonus": 0,
+    "base": 3,
+    "racial": 0
+   },
+   "des": {
+    "value": 0,
+    "bonus": 0,
+    "base": 0,
+    "racial": 0
+   },
+   "con": {
+    "value": 0,
+    "bonus": 0,
+    "base": 1,
+    "racial": 0
+   },
+   "int": {
+    "value": 0,
+    "bonus": 0,
+    "base": 1,
+    "racial": 0
+   },
+   "sab": {
+    "value": 0,
+    "bonus": 0,
+    "base": -3,
+    "racial": 0
+   },
+   "car": {
+    "value": 0,
+    "bonus": 0,
+    "base": 8,
+    "racial": 0
+   }
+  },
+  "attributes": {
+   "cd": 37,
+   "pv": {
+    "value": 390,
+    "min": -195,
+    "max": 390,
+    "temp": 0
+   },
+   "pm": {
+    "value": 119,
+    "min": 0,
+    "max": 119,
+    "temp": 0
+   },
+   "movement": {
+    "walk": {
+     "base": 12,
+     "bonus": []
+    },
+    "climb": {
+     "base": 0,
+     "bonus": []
+    },
+    "burrow": {
+     "base": 0,
+     "bonus": []
+    },
+    "swim": {
+     "base": 0,
+     "bonus": []
+    },
+    "fly": {
+     "base": 0,
+     "bonus": []
+    },
+    "unit": "m",
+    "hover": false,
+    "tags": []
+   },
+   "defesa": {
+    "base": 10,
+    "value": 42,
+    "outros": 32,
+    "atributo": "des",
+    "pda": 0,
+    "bonus": [],
+    "condi": 0
+   },
+   "sentidos": {
+    "value": [
+     "escuro"
+    ],
+    "custom": ""
+   },
+   "conjuracao": "int",
+   "nivel": {
+    "value": 13,
+    "xp": {
+     "value": 0
+    }
+   },
+   "nd": "13",
+   "treino": 0
+  },
+  "detalhes": {
+   "biography": {
+    "value": "<p><em>Mestre da Feitiçaria Rubra — ND 13 · Monstro (lefou) Médio · Especial</em></p><p>Iniciativa +14, Percepção +11, visão no escuro</p><p>Defesa 42, Fort +26, Ref +13, Von +20, fortificação 25%, imunidade a ácido, redução de dano 5, resistência a efeitos lefeu e da Tormenta +5</p><p>Pontos de Vida 390</p><p>Deslocamento 12m (8q)</p><p>Pontos de Mana 119</p><p>Corpo a Corpo Mordida +35 (4d6+8 mais 4d12 ácido) e duas garras +35 (4d8+8 mais 4d12 ácido).</p><p>Desprezar a Realidade (Livre, 2 PM) Até o início do seu próximo turno, o mestre da feitiçaria rubra ignora terreno difícil e causa 40% de chance de falha em efeitos usados contra ele.</p><p>Linhagem Rubra O custo das magias Amedrontar, Armadura Arcana, Concentração de Combate, Enxame Rubro de Ichabod e Flecha Ácida do mestre diminui em -1 PM (já contabilizado).</p><p>Reação Corrosiva (Livre) Se o mestre acerta os dois ataques de garra em uma mesma criatura na mesma rodada, ele injeta ácido no sangue dela. No início de cada um dos turnos da criatura, ela deve fazer um teste de Fortitude (CD 37). Se falhar, sofre 8d4 pontos de dano de ácido. Se passar, evita o dano nessa rodada e, se passar duas vezes em sequência, elimina o ácido. Se a criatura for reduzida a 0 PV por este dano de ácido, seu corpo explode, matando-a e causando 8d4 pontos de dano de ácido em todas as criaturas a até 3m (Ref CD 37 reduz à metade). Essa habilidade não afeta criaturas sem sangue, como construtos ou mortos-vivos.</p><p>Sangue Ácido Quando o mestre sofre dano por um ataque corpo a corpo, o atacante sofre 5 pontos de dano de ácido.</p><p>Tempo Místico (Livre, 2 PM) Uma vez por rodada, quando lança uma magia com execução de ação de movimento, padrão ou completa, o mestre pode perder 1d6, 1d8 ou 1d12 PV para diminuir o tempo de execução da magia em um, dois ou três passos, respectivamente (até um mínimo de ação livre). Essa perda de vida só pode ser curada com descanso.</p><p>Magias Como um feiticeiro de linhagem rubra de 13º nível (CD 37).</p><p>• Amedrontar (Padrão, 5 PM) Animais e humanoides em alcance curto à escolha do iniciado ficam apavorados por 1 rodada e depois abalados (Von reduz para abalado por 1d4 rodadas).</p><p>• Armadura Arcana (Reação, 1 PM) O mestre recebe +5 na Defesa contra o próximo ataque que sofrer.</p><p>• Concentração de Combate (Padrão, 7 PM) Até o fim da cena, quando faz um ataque, o mestre rola dois dados e usa o melhor resultado, e quando um oponente ataca o mestre, rola dois dados e usa o pior resultado.</p><p>• Enxame Rubro de Ichabod (Padrão, 13 PM, sustentada) Um enxame de pequenos parasitas da Tormenta surge em alcance médio e ocupa uma área de 3m. No fim de cada turno do mestre, o enxame causa 6d12 pontos de dano de ácido a qualquer criatura em seu espaço (Ref reduz à metade). No início de cada um de seus turnos, o mestre rola 1d6. Em um resultado 5 ou 6, um novo enxame surge adjacente a um já existente à sua escolha. O mestre pode gastar uma ação de movimento para mover todos os enxames com deslocamento de 12m, mas eles não podem ocupar o mesmo espaço.</p><p>• Flecha Ácida (Padrão, 13 PM) O mestre dispara um projétil em uma criatura ou objeto em alcance médio. O alvo sofre 9d6 pontos de dano de ácido e fica coberto por muco corrosivo que causa 7d6 pontos de dano de ácido no início de cada um de seus dois próximos turnos. Além disso, se o alvo estiver usando armadura ou escudo, o muco corrói o item, reduzindo seu bônus na Defesa em 1 ponto permanentemente (Ref reduz à metade e evita o muco).</p><p>• Libertação (Padrão, 10 PM) Até o fim da cena, o mestre fica imune a efeitos de movimento e ignora qualquer efeito que impeça ou restrinja seu deslocamento.</p><p>For 3, Des 0, Con 1, Int 1, Sab -3, Car 8</p><p>Perícias Atletismo +14, Conhecimento +11, Intimidação +22, Misticismo +13.</p><p>Tesouro Padrão.</p><p><strong>Fonte:</strong> Bestiário de Arton, p. 77</p>",
+    "public": ""
+   },
+   "raca": "lefou",
+   "tipo": "mon",
+   "divindade": "",
+   "origem": "",
+   "equipamento": "",
+   "resistencias": "fortificação 25%, resistência a efeitos lefeu e da Tormenta +5",
+   "movimento": "",
+   "tesouro": "Padrão",
+   "role": "special",
+   "ataquescac": "",
+   "ataquesad": ""
+  },
+  "tracos": {
+   "tamanho": "med",
+   "resistencias": {
+    "dano": {
+     "value": 0,
+     "base": 5,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perda": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "acido": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": true,
+     "vulnerabilidade": false
+    },
+    "corte": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "eletricidade": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "essencia": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "fogo": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "frio": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "impacto": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "luz": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "psiquico": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "perfuracao": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    },
+    "trevas": {
+     "value": 0,
+     "base": 0,
+     "bonus": [],
+     "imunidade": false,
+     "vulnerabilidade": false
+    }
+   },
+   "ic": {
+    "value": [],
+    "custom": ""
+   }
+  },
+  "pericias": {
+   "acro": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ades": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atle": {
+    "value": 14,
+    "atributo": "for",
+    "outros": 1,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "atua": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cava": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "conh": {
+    "value": 11,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cura": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "dipl": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "fort": {
+    "value": 26,
+    "atributo": "con",
+    "outros": 19,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "furt": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": true,
+    "size": true,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "guer": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inic": {
+    "value": 14,
+    "atributo": "des",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inti": {
+    "value": 22,
+    "atributo": "car",
+    "outros": 4,
+    "treinado": true,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "intu": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "inve": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "joga": {
+    "value": 0,
+    "atributo": "car",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "ladi": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "luta": {
+    "value": 35,
+    "atributo": "for",
+    "outros": 26,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "mist": {
+    "value": 13,
+    "atributo": "int",
+    "outros": 2,
+    "treinado": true,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "nobr": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "perc": {
+    "value": 11,
+    "atributo": "sab",
+    "outros": 8,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pilo": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "pont": {
+    "value": 0,
+    "atributo": "des",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "refl": {
+    "value": 13,
+    "atributo": "des",
+    "outros": 7,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "reli": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "sobr": {
+    "value": 0,
+    "atributo": "sab",
+    "outros": 0,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "vont": {
+    "value": 20,
+    "atributo": "sab",
+    "outros": 17,
+    "treinado": false,
+    "st": false,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alfa": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "alqu": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arme": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "arte": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "cozi": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": false,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   },
+   "enge": {
+    "value": 0,
+    "atributo": "int",
+    "outros": 0,
+    "treinado": false,
+    "st": true,
+    "pda": true,
+    "size": false,
+    "condi": 0,
+    "bonus": [],
+    "custom": false,
+    "label": "",
+    "nome": ""
+   }
+  }
+ },
+ "ownership": {
+  "default": 0
+ },
+ "prototypeToken": {
+  "name": "Mestre da Feitiçaria Rubra",
+  "displayName": 20,
+  "actorLink": false,
+  "disposition": -1,
+  "displayBars": 20,
+  "width": 1,
+  "height": 1,
+  "bar1": {
+   "attribute": "attributes.pv"
+  },
+  "bar2": {
+   "attribute": "attributes.pm"
+  },
+  "texture": {
+   "src": "icons/svg/terror.svg",
+   "scaleX": 1,
+   "scaleY": 1,
+   "fit": "contain"
+  },
+  "sight": {
+   "enabled": true,
+   "range": 0,
+   "visionMode": "basic"
+  },
+  "appendNumber": true,
+  "flags": {}
+ },
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!actors!FZ3kPpPTlGoIJee5"
+}

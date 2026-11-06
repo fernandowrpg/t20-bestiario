@@ -1,0 +1,35 @@
+{
+ "out_dir": "saida",
+ "sources": [
+  {
+   "id": "BdA",
+   "label": "Bestiário de Arton",
+   "path": "Bestiario-de-Arton.pdf",
+   "page_offset": -4
+  }
+ ],
+ "name_fix": {
+  "BdA:32": "Aspecto de Sszzaas",
+  "Pileus M ago (Estágio Três)": "Pileus Mago (Estágio Três)"
+ },
+ "text_fix": {
+  "BdA:22:Alghari": [
+   [
+    "Fort + 15",
+    "Fort +15"
+   ]
+  ],
+  "BdA:59:Dragão-de-Aço": [
+   [
+    "Pontos de vida",
+    "Pontos de Vida"
+   ]
+  ],
+  "BdA:71:Suíno Ensandecido": [
+   [
+    "aldeão,. machado de lenha",
+    "aldeão, machado de lenha."
+   ]
+  ]
+ }
+}

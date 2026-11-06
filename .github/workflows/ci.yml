@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/build.mjs
+      - name: Validar JSON das fontes
+        run: |
+          python3 - <<'PY'
+          import json, glob
+          n = 0
+          for f in glob.glob("src/packs/**/*.json", recursive=True):
+              d = json.load(open(f)); assert "_key" in d and "_id" in d, f; n += 1
+          print(n, "documentos OK")
+          PY

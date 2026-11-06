@@ -1,0 +1,59 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Versão (ex.: 1.0.1). Cria a tag v<versão>."
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Definir versão
+        id: v
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            V="${{ inputs.version }}"
+          else
+            V="${GITHUB_REF_NAME}"
+          fi
+          V="${V#v}"
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "tag=v$V" >> "$GITHUB_OUTPUT"
+
+      - run: npm ci
+
+      - name: Compilar compêndio
+        run: node scripts/build.mjs "${{ steps.v.outputs.version }}"
+
+      - name: Empacotar
+        run: |
+          cd dist
+          zip -qrX bestiario-de-arton-t20.zip bestiario-de-arton-t20
+
+      - name: Publicar release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${{ steps.v.outputs.tag }}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/bestiario-de-arton-t20.zip dist/module.json --clobber
+          else
+            gh release create "$TAG" dist/bestiario-de-arton-t20.zip dist/module.json \
+              --title "Bestiário de Arton $TAG" --generate-notes --target "${{ github.sha }}"
+          fi

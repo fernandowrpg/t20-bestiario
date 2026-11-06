@@ -1,0 +1,53 @@
+{
+  "id": "bestiario-de-arton-t20",
+  "title": "Bestiário de Arton (Tormenta20)",
+  "description": "Compêndio com as 181 criaturas do Bestiário de Arton (Jambô, 2026) prontas como ameaças (NPC) do sistema Tormenta20. Uso pessoal.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Uso pessoal"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.5.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "bestiario-de-arton",
+      "label": "Bestiário de Arton",
+      "path": "packs/bestiario-de-arton",
+      "type": "Actor",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Bestiário de Arton",
+      "sorting": "m",
+      "color": "#6b0f0f",
+      "packs": [
+        "bestiario-de-arton"
+      ]
+    }
+  ],
+  "url": "https://github.com/fernandowrpg/t20-bestiario",
+  "manifest": "https://github.com/fernandowrpg/t20-bestiario/releases/latest/download/module.json",
+  "download": "https://github.com/fernandowrpg/t20-bestiario/releases/latest/download/bestiario-de-arton-t20.zip"
+}

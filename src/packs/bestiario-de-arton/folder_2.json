@@ -1,0 +1,22 @@
+{
+ "_id": "Pw9K7EkGfDW949ll",
+ "name": "ND 2",
+ "type": "Actor",
+ "folder": null,
+ "sorting": "a",
+ "sort": 2000,
+ "color": null,
+ "flags": {},
+ "_stats": {
+  "systemId": "tormenta20",
+  "systemVersion": "1.5.015",
+  "coreVersion": "13.351",
+  "createdTime": 1790000000000,
+  "modifiedTime": 1790000000000,
+  "lastModifiedBy": null,
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "exportSource": null
+ },
+ "_key": "!folders!Pw9K7EkGfDW949ll"
+}
